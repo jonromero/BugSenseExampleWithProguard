@@ -1,0 +1,15 @@
+com.bugsense.proguardtest.R
+com.bugsense.proguardtest.R$attr
+com.bugsense.proguardtest.R$drawable
+com.bugsense.proguardtest.R$layout
+com.bugsense.proguardtest.R$string
+com.bugsense.trace.BugSenseHandler:
+    public static void notifyContextGone()
+    public static boolean submit()
+    public static void setUrl(java.lang.String)
+    public static void setTag(java.lang.String)
+    public static void setVerbose(boolean)
+    public static void setMinDelay(int)
+    public static void setHttpTimeout(java.lang.Integer)
+    public static void clear()
+com.bugsense.trace.BugSenseHandler$3

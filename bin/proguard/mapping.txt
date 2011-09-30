@@ -1,0 +1,53 @@
+com.bugsense.proguardtest.ProguardBugSenseActivity -> com.bugsense.proguardtest.ProguardBugSenseActivity:
+    12:16:void onCreate(android.os.Bundle) -> onCreate
+com.bugsense.trace.ActivityAsyncTask -> com.bugsense.a.c:
+    java.lang.Object mWrapped -> a
+    boolean mPostProcessingDone -> b
+    java.lang.Object mResult -> c
+    void connectTo(java.lang.Object) -> a
+    boolean postProcessingDone() -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+com.bugsense.trace.BugSense -> com.bugsense.a.e:
+    void submitError(int,java.util.Date,java.lang.String) -> a
+com.bugsense.trace.BugSenseHandler -> com.bugsense.a.a:
+    java.util.ArrayList sStackTraces -> a
+    com.bugsense.trace.ActivityAsyncTask sTask -> b
+    boolean sVerbose -> c
+    int sMinDelay -> d
+    java.lang.Integer sTimeout -> e
+    boolean sSetupCalled -> f
+    android.content.Context gContext -> g
+    boolean setup(android.content.Context,com.bugsense.trace.BugSenseHandler$Processor,java.lang.String) -> a
+    boolean setup(android.content.Context,java.lang.String) -> a
+    java.util.ArrayList getStackTraces() -> f
+    java.lang.String CheckNetworkConnection(java.lang.String) -> a
+    java.lang.String isWifiOn() -> a
+    java.lang.String isMobileNetworkOn() -> b
+    java.lang.String isGPSOn() -> c
+    java.lang.String[] ScreenProperties() -> d
+    void access$000(java.util.ArrayList) -> a
+    int access$100() -> e
+com.bugsense.trace.BugSenseHandler$1 -> com.bugsense.a.g:
+com.bugsense.trace.BugSenseHandler$2 -> com.bugsense.a.f:
+    long mTimeStarted -> a
+    java.util.ArrayList val$tracesNowSubmitting -> b
+    void onPreExecute() -> onPreExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onCancelled() -> onCancelled
+com.bugsense.trace.BugSenseHandler$4 -> com.bugsense.a.i:
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.bugsense.trace.BugSenseHandler$Processor -> com.bugsense.a.h:
+com.bugsense.trace.DefaultExceptionHandler -> com.bugsense.a.b:
+    java.lang.Thread$UncaughtExceptionHandler defaultExceptionHandler -> a
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+com.bugsense.trace.G -> com.bugsense.a.d:
+    java.lang.String FILES_PATH -> a
+    java.lang.String APP_VERSION -> b
+    java.lang.String APP_PACKAGE -> c
+    java.lang.String URL -> d
+    java.lang.String TAG -> e
+    java.lang.String ANDROID_VERSION -> f
+    java.lang.String PHONE_MODEL -> g
+    java.lang.String PHONE_BRAND -> j
+    java.lang.String API_KEY -> h
+    java.lang.String TraceVersion -> i

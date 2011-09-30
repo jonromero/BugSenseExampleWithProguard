@@ -1,0 +1,3569 @@
+_____________________________________________________________________
++ Program class: com/bugsense/a/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.bugsense.a.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 422):
+  - String []
+  - String [ stacktrace(s)]
+  - String [' belongs to version ]
+  - String [-]
+  - String [/]
+  - String [180]
+  - String [270]
+  - String [90]
+  - String [APP_PACKAGE: ]
+  - String [APP_VERSION: ]
+  - String [Error collecting trace information]
+  - String [Error deleting trace file: ]
+  - String [Error submitting trace]
+  - String [FILES_PATH: ]
+  - String [Failed to load stack trace]
+  - String [Found ]
+  - String [Looking for exceptions in: ]
+  - String [MOBILE]
+  - String [Not available]
+  - String [Registering default exceptions handler]
+  - String [Stacktrace in file ']
+  - String [TRACE_VERSION: ]
+  - String [URL: ]
+  - String [WIFI]
+  - String [android.permission.ACCESS_FINE_LOCATION]
+  - String [android.permission.ACCESS_NETWORK_STATE]
+  - String [connectivity]
+  - String [current handler class=]
+  - String [false]
+  - String [gps]
+  - String [line.separator]
+  - String [location]
+  - String [normal]
+  - String [not available [permissions]]
+  - String [true]
+  - String [window]
+  - String [you need to call setup() first]
+  - Class [[Landroid/net/NetworkInfo;]
+  - Class [[Ljava/lang/String;]
+  - Class [android/content/Context]
+  - Class [android/content/pm/PackageInfo]
+  - Class [android/content/pm/PackageManager]
+  - Class [android/content/pm/PackageManager$NameNotFoundException]
+  - Class [android/location/LocationManager]
+  - Class [android/net/ConnectivityManager]
+  - Class [android/net/NetworkInfo]
+  - Class [android/os/Build]
+  - Class [android/os/Build$VERSION]
+  - Class [android/util/DisplayMetrics]
+  - Class [android/util/Log]
+  - Class [android/view/Display]
+  - Class [android/view/WindowManager]
+  - Class [com/bugsense/a/a]
+  - Class [com/bugsense/a/b]
+  - Class [com/bugsense/a/c]
+  - Class [com/bugsense/a/d]
+  - Class [com/bugsense/a/e]
+  - Class [com/bugsense/a/f]
+  - Class [com/bugsense/a/g]
+  - Class [com/bugsense/a/h]
+  - Class [com/bugsense/a/i]
+  - Class [java/io/BufferedReader]
+  - Class [java/io/File]
+  - Class [java/io/FileNotFoundException]
+  - Class [java/io/FileReader]
+  - Class [java/io/FilenameFilter]
+  - Class [java/io/IOException]
+  - Class [java/lang/Class]
+  - Class [java/lang/Exception]
+  - Class [java/lang/Float]
+  - Class [java/lang/Integer]
+  - Class [java/lang/Object]
+  - Class [java/lang/RuntimeException]
+  - Class [java/lang/String]
+  - Class [java/lang/StringBuilder]
+  - Class [java/lang/System]
+  - Class [java/lang/Thread]
+  - Class [java/lang/Thread$UncaughtExceptionHandler]
+  - Class [java/lang/Throwable]
+  - Class [java/util/ArrayList]
+  - Fieldref [android/content/pm/PackageInfo.packageName Ljava/lang/String;]
+  - Fieldref [android/content/pm/PackageInfo.versionName Ljava/lang/String;]
+  - Fieldref [android/os/Build.MODEL Ljava/lang/String;]
+  - Fieldref [android/os/Build$VERSION.RELEASE Ljava/lang/String;]
+  - Fieldref [android/util/DisplayMetrics.xdpi F]
+  - Fieldref [android/util/DisplayMetrics.ydpi F]
+  - Fieldref [com/bugsense/a/a.a Ljava/util/ArrayList;]
+  - Fieldref [com/bugsense/a/a.b Lcom/bugsense/a/c;]
+  - Fieldref [com/bugsense/a/a.c Z]
+  - Fieldref [com/bugsense/a/a.d I]
+  - Fieldref [com/bugsense/a/a.e Ljava/lang/Integer;]
+  - Fieldref [com/bugsense/a/a.f Z]
+  - Fieldref [com/bugsense/a/a.g Landroid/content/Context;]
+  - Fieldref [com/bugsense/a/d.a Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.b Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.c Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.d Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.f Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.g Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.h Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.i Ljava/lang/String;]
+  - Methodref [android/content/Context.getFilesDir ()Ljava/io/File;]
+  - Methodref [android/content/Context.getPackageManager ()Landroid/content/pm/PackageManager;]
+  - Methodref [android/content/Context.getPackageName ()Ljava/lang/String;]
+  - Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  - Methodref [android/content/pm/PackageManager.checkPermission (Ljava/lang/String;Ljava/lang/String;)I]
+  - Methodref [android/content/pm/PackageManager.getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+  - Methodref [android/location/LocationManager.isProviderEnabled (Ljava/lang/String;)Z]
+  - Methodref [android/net/ConnectivityManager.getAllNetworkInfo ()[Landroid/net/NetworkInfo;]
+  - Methodref [android/net/NetworkInfo.getTypeName ()Ljava/lang/String;]
+  - Methodref [android/net/NetworkInfo.isConnected ()Z]
+  - Methodref [android/util/DisplayMetrics.<init> ()V]
+  - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+  - Methodref [android/util/Log.i (Ljava/lang/String;Ljava/lang/String;)I]
+  - Methodref [android/view/Display.getHeight ()I]
+  - Methodref [android/view/Display.getMetrics (Landroid/util/DisplayMetrics;)V]
+  - Methodref [android/view/Display.getOrientation ()I]
+  - Methodref [android/view/Display.getWidth ()I]
+  - Methodref [com/bugsense/a/a.a (Landroid/content/Context;Lcom/bugsense/a/h;Ljava/lang/String;)Z]
+  - Methodref [com/bugsense/a/a.a (Ljava/lang/String;)Ljava/lang/String;]
+  - Methodref [com/bugsense/a/a.f ()Ljava/util/ArrayList;]
+  - Methodref [com/bugsense/a/b.<init> (Ljava/lang/Thread$UncaughtExceptionHandler;)V]
+  - Methodref [com/bugsense/a/c.a ()Z]
+  - Methodref [com/bugsense/a/c.a (Ljava/lang/Object;)V]
+  - Methodref [com/bugsense/a/c.execute ([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+  - Methodref [com/bugsense/a/e.a (ILjava/util/Date;Ljava/lang/String;)V]
+  - Methodref [com/bugsense/a/f.<init> (Lcom/bugsense/a/h;Ljava/util/ArrayList;)V]
+  - Methodref [com/bugsense/a/g.<init> ()V]
+  - Methodref [com/bugsense/a/i.<init> ()V]
+  - Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;)V]
+  - Methodref [java/io/BufferedReader.close ()V]
+  - Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+  - Methodref [java/io/File.<init> (Ljava/lang/String;)V]
+  - Methodref [java/io/File.delete ()Z]
+  - Methodref [java/io/File.exists ()Z]
+  - Methodref [java/io/File.getAbsolutePath ()Ljava/lang/String;]
+  - Methodref [java/io/File.list (Ljava/io/FilenameFilter;)[Ljava/lang/String;]
+  - Methodref [java/io/File.mkdir ()Z]
+  - Methodref [java/io/FileReader.<init> (Ljava/lang/String;)V]
+  - Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+  - Methodref [java/lang/Float.toString (F)Ljava/lang/String;]
+  - Methodref [java/lang/Integer.intValue ()I]
+  - Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
+  - Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+  - Methodref [java/lang/RuntimeException.<init> (Ljava/lang/String;)V]
+  - Methodref [java/lang/String.equalsIgnoreCase (Ljava/lang/String;)Z]
+  - Methodref [java/lang/String.split (Ljava/lang/String;)[Ljava/lang/String;]
+  - Methodref [java/lang/StringBuilder.<init> ()V]
+  - Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  - Methodref [java/lang/System.getProperty (Ljava/lang/String;)Ljava/lang/String;]
+  - Methodref [java/lang/Thread.getDefaultUncaughtExceptionHandler ()Ljava/lang/Thread$UncaughtExceptionHandler;]
+  - Methodref [java/lang/Thread.setDefaultUncaughtExceptionHandler (Ljava/lang/Thread$UncaughtExceptionHandler;)V]
+  - Methodref [java/util/ArrayList.<init> ()V]
+  - Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+  - Methodref [java/util/ArrayList.get (I)Ljava/lang/Object;]
+  - Methodref [java/util/ArrayList.size ()I]
+  - InterfaceMethodref [android/view/WindowManager.getDefaultDisplay ()Landroid/view/Display;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/bugsense/a/h;Ljava/util/ArrayList;)V]
+  + NameAndType [<init> (Ljava/io/Reader;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> (Ljava/lang/Thread$UncaughtExceptionHandler;)V]
+  + NameAndType [MODEL Ljava/lang/String;]
+  + NameAndType [RELEASE Ljava/lang/String;]
+  + NameAndType [a ()Z]
+  + NameAndType [a (ILjava/util/Date;Ljava/lang/String;)V]
+  + NameAndType [a (Landroid/content/Context;Lcom/bugsense/a/h;Ljava/lang/String;)Z]
+  + NameAndType [a (Ljava/lang/Object;)V]
+  + NameAndType [a (Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [a Ljava/util/ArrayList;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [append (I)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b Lcom/bugsense/a/c;]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [c Ljava/lang/String;]
+  + NameAndType [c Z]
+  + NameAndType [checkPermission (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [close ()V]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [d I]
+  + NameAndType [d Ljava/lang/String;]
+  + NameAndType [delete ()Z]
+  + NameAndType [e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+  + NameAndType [e Ljava/lang/Integer;]
+  + NameAndType [e Ljava/lang/String;]
+  + NameAndType [equalsIgnoreCase (Ljava/lang/String;)Z]
+  + NameAndType [execute ([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+  + NameAndType [exists ()Z]
+  + NameAndType [f ()Ljava/util/ArrayList;]
+  + NameAndType [f Ljava/lang/String;]
+  + NameAndType [f Z]
+  + NameAndType [g Landroid/content/Context;]
+  + NameAndType [g Ljava/lang/String;]
+  + NameAndType [get (I)Ljava/lang/Object;]
+  + NameAndType [getAbsolutePath ()Ljava/lang/String;]
+  + NameAndType [getAllNetworkInfo ()[Landroid/net/NetworkInfo;]
+  + NameAndType [getClass ()Ljava/lang/Class;]
+  + NameAndType [getDefaultDisplay ()Landroid/view/Display;]
+  + NameAndType [getDefaultUncaughtExceptionHandler ()Ljava/lang/Thread$UncaughtExceptionHandler;]
+  + NameAndType [getFilesDir ()Ljava/io/File;]
+  + NameAndType [getHeight ()I]
+  + NameAndType [getMetrics (Landroid/util/DisplayMetrics;)V]
+  + NameAndType [getName ()Ljava/lang/String;]
+  + NameAndType [getOrientation ()I]
+  + NameAndType [getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+  + NameAndType [getPackageManager ()Landroid/content/pm/PackageManager;]
+  + NameAndType [getPackageName ()Ljava/lang/String;]
+  + NameAndType [getProperty (Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + NameAndType [getTypeName ()Ljava/lang/String;]
+  + NameAndType [getWidth ()I]
+  + NameAndType [h Ljava/lang/String;]
+  + NameAndType [i (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [i Ljava/lang/String;]
+  + NameAndType [intValue ()I]
+  + NameAndType [isConnected ()Z]
+  + NameAndType [isProviderEnabled (Ljava/lang/String;)Z]
+  + NameAndType [list (Ljava/io/FilenameFilter;)[Ljava/lang/String;]
+  + NameAndType [mkdir ()Z]
+  + NameAndType [packageName Ljava/lang/String;]
+  + NameAndType [readLine ()Ljava/lang/String;]
+  + NameAndType [setDefaultUncaughtExceptionHandler (Ljava/lang/Thread$UncaughtExceptionHandler;)V]
+  + NameAndType [size ()I]
+  + NameAndType [split (Ljava/lang/String;)[Ljava/lang/String;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [toString (F)Ljava/lang/String;]
+  + NameAndType [toString (I)Ljava/lang/String;]
+  + NameAndType [valueOf (I)Ljava/lang/Integer;]
+  + NameAndType [versionName Ljava/lang/String;]
+  + NameAndType [xdpi F]
+  + NameAndType [ydpi F]
+  + Utf8 []
+  + Utf8 [ stacktrace(s)]
+  + Utf8 [' belongs to version ]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/content/pm/PackageManager;]
+  + Utf8 [()Landroid/view/Display;]
+  + Utf8 [()Ljava/io/File;]
+  + Utf8 [()Ljava/lang/Class;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/Thread$UncaughtExceptionHandler;]
+  + Utf8 [()Ljava/util/ArrayList;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [()[Landroid/net/NetworkInfo;]
+  + Utf8 [()[Ljava/lang/String;]
+  + Utf8 [(F)Ljava/lang/String;]
+  + Utf8 [(I)Ljava/lang/Integer;]
+  + Utf8 [(I)Ljava/lang/Object;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)Ljava/lang/StringBuilder;]
+  + Utf8 [(ILjava/util/Date;Ljava/lang/String;)V]
+  + Utf8 [(Landroid/content/Context;Lcom/bugsense/a/h;Ljava/lang/String;)Z]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)Z]
+  + Utf8 [(Landroid/util/DisplayMetrics;)V]
+  + Utf8 [(Lcom/bugsense/a/h;Ljava/util/ArrayList;)V]
+  + Utf8 [(Ljava/io/FilenameFilter;)[Ljava/lang/String;]
+  + Utf8 [(Ljava/io/Reader;)V]
+  + Utf8 [(Ljava/lang/Object;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;)Z]
+  + Utf8 [(Ljava/lang/String;)[Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+  + Utf8 [(Ljava/lang/Thread$UncaughtExceptionHandler;)V]
+  + Utf8 [(Ljava/util/ArrayList;)V]
+  + Utf8 [([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+  + Utf8 [-]
+  + Utf8 [/]
+  + Utf8 [180]
+  + Utf8 [270]
+  + Utf8 [90]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [APP_PACKAGE: ]
+  + Utf8 [APP_VERSION: ]
+  + Utf8 [Code]
+  + Utf8 [Error collecting trace information]
+  + Utf8 [Error deleting trace file: ]
+  + Utf8 [Error submitting trace]
+  + Utf8 [F]
+  + Utf8 [FILES_PATH: ]
+  + Utf8 [Failed to load stack trace]
+  + Utf8 [Found ]
+  + Utf8 [I]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Lcom/bugsense/a/c;]
+  + Utf8 [Ljava/lang/Integer;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Ljava/util/ArrayList;]
+  + Utf8 [Looking for exceptions in: ]
+  + Utf8 [MOBILE]
+  + Utf8 [MODEL]
+  + Utf8 [Not available]
+  + Utf8 [RELEASE]
+  + Utf8 [Registering default exceptions handler]
+  + Utf8 [StackMapTable]
+  + Utf8 [Stacktrace in file ']
+  + Utf8 [TRACE_VERSION: ]
+  + Utf8 [URL: ]
+  + Utf8 [WIFI]
+  + Utf8 [Z]
+  + Utf8 [[Landroid/net/NetworkInfo;]
+  + Utf8 [[Ljava/lang/String;]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [android.permission.ACCESS_FINE_LOCATION]
+  + Utf8 [android.permission.ACCESS_NETWORK_STATE]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/pm/PackageInfo]
+  + Utf8 [android/content/pm/PackageManager]
+  + Utf8 [android/content/pm/PackageManager$NameNotFoundException]
+  + Utf8 [android/location/LocationManager]
+  + Utf8 [android/net/ConnectivityManager]
+  + Utf8 [android/net/NetworkInfo]
+  + Utf8 [android/os/Build]
+  + Utf8 [android/os/Build$VERSION]
+  + Utf8 [android/util/DisplayMetrics]
+  + Utf8 [android/util/Log]
+  + Utf8 [android/view/Display]
+  + Utf8 [android/view/WindowManager]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [checkPermission]
+  + Utf8 [close]
+  + Utf8 [com/bugsense/a/a]
+  + Utf8 [com/bugsense/a/b]
+  + Utf8 [com/bugsense/a/c]
+  + Utf8 [com/bugsense/a/d]
+  + Utf8 [com/bugsense/a/e]
+  + Utf8 [com/bugsense/a/f]
+  + Utf8 [com/bugsense/a/g]
+  + Utf8 [com/bugsense/a/h]
+  + Utf8 [com/bugsense/a/i]
+  + Utf8 [connectivity]
+  + Utf8 [current handler class=]
+  + Utf8 [d]
+  + Utf8 [delete]
+  + Utf8 [e]
+  + Utf8 [equalsIgnoreCase]
+  + Utf8 [execute]
+  + Utf8 [exists]
+  + Utf8 [f]
+  + Utf8 [false]
+  + Utf8 [g]
+  + Utf8 [get]
+  + Utf8 [getAbsolutePath]
+  + Utf8 [getAllNetworkInfo]
+  + Utf8 [getClass]
+  + Utf8 [getDefaultDisplay]
+  + Utf8 [getDefaultUncaughtExceptionHandler]
+  + Utf8 [getFilesDir]
+  + Utf8 [getHeight]
+  + Utf8 [getMetrics]
+  + Utf8 [getName]
+  + Utf8 [getOrientation]
+  + Utf8 [getPackageInfo]
+  + Utf8 [getPackageManager]
+  + Utf8 [getPackageName]
+  + Utf8 [getProperty]
+  + Utf8 [getSystemService]
+  + Utf8 [getTypeName]
+  + Utf8 [getWidth]
+  + Utf8 [gps]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [intValue]
+  + Utf8 [isConnected]
+  + Utf8 [isProviderEnabled]
+  + Utf8 [java/io/BufferedReader]
+  + Utf8 [java/io/File]
+  + Utf8 [java/io/FileNotFoundException]
+  + Utf8 [java/io/FileReader]
+  + Utf8 [java/io/FilenameFilter]
+  + Utf8 [java/io/IOException]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/Float]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/RuntimeException]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/lang/System]
+  + Utf8 [java/lang/Thread]
+  + Utf8 [java/lang/Thread$UncaughtExceptionHandler]
+  + Utf8 [java/lang/Throwable]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [line.separator]
+  + Utf8 [list]
+  + Utf8 [location]
+  + Utf8 [mkdir]
+  + Utf8 [normal]
+  + Utf8 [not available [permissions]]
+  + Utf8 [packageName]
+  + Utf8 [readLine]
+  + Utf8 [setDefaultUncaughtExceptionHandler]
+  + Utf8 [size]
+  + Utf8 [split]
+  + Utf8 [toString]
+  + Utf8 [true]
+  + Utf8 [valueOf]
+  + Utf8 [versionName]
+  + Utf8 [window]
+  + Utf8 [xdpi]
+  + Utf8 [ydpi]
+  + Utf8 [you need to call setup() first]
+
+Fields (count = 7):
+  + Field:        a Ljava/util/ArrayList;
+    Access flags: 0xa
+      = private static java.util.ArrayList a
+  + Field:        b Lcom/bugsense/a/c;
+    Access flags: 0xa
+      = private static com.bugsense.a.c b
+  + Field:        c Z
+    Access flags: 0xa
+      = private static boolean c
+  + Field:        d I
+    Access flags: 0xa
+      = private static int d
+  + Field:        e Ljava/lang/Integer;
+    Access flags: 0xa
+      = private static java.lang.Integer e
+  + Field:        f Z
+    Access flags: 0xa
+      = private static boolean f
+  + Field:        g Landroid/content/Context;
+    Access flags: 0xa
+      = private static android.content.Context g
+
+Methods (count = 12):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #147
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/content/Context;Lcom/bugsense/a/h;Ljava/lang/String;)Z
+    Access flags: 0xa
+      = private static boolean a(android.content.Context,com.bugsense.a.h,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 405, locals = 3, stack = 4):
+      [0] aload_2 v2
+      [1] putstatic #101
+        - Fieldref [com/bugsense/a/d.h Ljava/lang/String;]
+      [4] aload_0 v0
+      [5] putstatic #93
+        - Fieldref [com/bugsense/a/a.g Landroid/content/Context;]
+      [8] getstatic #92
+        - Fieldref [com/bugsense/a/a.f Z]
+      [11] ifeq +34 (target=45)
+      [14] getstatic #88
+        - Fieldref [com/bugsense/a/a.b Lcom/bugsense/a/c;]
+      [17] ifnull +26 (target=43)
+      [20] getstatic #88
+        - Fieldref [com/bugsense/a/a.b Lcom/bugsense/a/c;]
+      [23] invokevirtual #125
+        - Methodref [com/bugsense/a/c.a ()Z]
+      [26] ifne +17 (target=43)
+      [29] getstatic #88
+        - Fieldref [com/bugsense/a/a.b Lcom/bugsense/a/c;]
+      [32] aconst_null
+      [33] invokevirtual #126
+        - Methodref [com/bugsense/a/c.a (Ljava/lang/Object;)V]
+      [36] getstatic #88
+        - Fieldref [com/bugsense/a/a.b Lcom/bugsense/a/c;]
+      [39] aload_1 v1
+      [40] invokevirtual #126
+        - Methodref [com/bugsense/a/c.a (Ljava/lang/Object;)V]
+      [43] iconst_0
+      [44] ireturn
+      [45] iconst_1
+      [46] putstatic #92
+        - Fieldref [com/bugsense/a/a.f Z]
+      [49] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [52] ldc #20
+        - String [Registering default exceptions handler]
+      [54] invokestatic #116
+        - Methodref [android/util/Log.i (Ljava/lang/String;Ljava/lang/String;)I]
+      [57] pop
+      [58] aload_0 v0
+      [59] invokevirtual #103
+        - Methodref [android/content/Context.getFilesDir ()Ljava/io/File;]
+      [62] invokevirtual #138
+        - Methodref [java/io/File.getAbsolutePath ()Ljava/lang/String;]
+      [65] putstatic #94
+        - Fieldref [com/bugsense/a/d.a Ljava/lang/String;]
+      [68] getstatic #83
+        - Fieldref [android/os/Build.MODEL Ljava/lang/String;]
+      [71] putstatic #100
+        - Fieldref [com/bugsense/a/d.g Ljava/lang/String;]
+      [74] getstatic #84
+        - Fieldref [android/os/Build$VERSION.RELEASE Ljava/lang/String;]
+      [77] putstatic #99
+        - Fieldref [com/bugsense/a/d.f Ljava/lang/String;]
+      [80] aload_0 v0
+      [81] invokevirtual #104
+        - Methodref [android/content/Context.getPackageManager ()Landroid/content/pm/PackageManager;]
+      [84] astore_2 v2
+      [85] aload_2 v2
+      [86] aload_0 v0
+      [87] invokevirtual #105
+        - Methodref [android/content/Context.getPackageName ()Ljava/lang/String;]
+      [90] iconst_0
+      [91] invokevirtual #108
+        - Methodref [android/content/pm/PackageManager.getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+      [94] dup
+      [95] astore_0 v0
+      [96] getfield #82
+        - Fieldref [android/content/pm/PackageInfo.versionName Ljava/lang/String;]
+      [99] putstatic #95
+        - Fieldref [com/bugsense/a/d.b Ljava/lang/String;]
+      [102] aload_0 v0
+      [103] getfield #81
+        - Fieldref [android/content/pm/PackageInfo.packageName Ljava/lang/String;]
+      [106] putstatic #96
+        - Fieldref [com/bugsense/a/d.c Ljava/lang/String;]
+      [109] goto +14 (target=123)
+      [112] astore_0 v0
+      [113] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [116] ldc #11
+        - String [Error collecting trace information]
+      [118] aload_0 v0
+      [119] invokestatic #115
+        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+      [122] pop
+      [123] getstatic #89
+        - Fieldref [com/bugsense/a/a.c Z]
+      [126] ifeq +143 (target=269)
+      [129] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [132] new #75
+        - Class [java/lang/StringBuilder]
+      [135] dup
+      [136] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [139] ldc #22
+        - String [TRACE_VERSION: ]
+      [141] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [144] getstatic #102
+        - Fieldref [com/bugsense/a/d.i Ljava/lang/String;]
+      [147] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [150] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [153] invokestatic #116
+        - Methodref [android/util/Log.i (Ljava/lang/String;Ljava/lang/String;)I]
+      [156] pop
+      [157] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [160] new #75
+        - Class [java/lang/StringBuilder]
+      [163] dup
+      [164] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [167] ldc #10
+        - String [APP_VERSION: ]
+      [169] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [172] getstatic #95
+        - Fieldref [com/bugsense/a/d.b Ljava/lang/String;]
+      [175] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [178] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [181] invokestatic #114
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [184] pop
+      [185] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [188] new #75
+        - Class [java/lang/StringBuilder]
+      [191] dup
+      [192] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [195] ldc #9
+        - String [APP_PACKAGE: ]
+      [197] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [200] getstatic #96
+        - Fieldref [com/bugsense/a/d.c Ljava/lang/String;]
+      [203] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [206] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [209] invokestatic #114
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [212] pop
+      [213] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [216] new #75
+        - Class [java/lang/StringBuilder]
+      [219] dup
+      [220] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [223] ldc #14
+        - String [FILES_PATH: ]
+      [225] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [228] getstatic #94
+        - Fieldref [com/bugsense/a/d.a Ljava/lang/String;]
+      [231] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [234] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [237] invokestatic #114
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [240] pop
+      [241] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [244] new #75
+        - Class [java/lang/StringBuilder]
+      [247] dup
+      [248] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [251] ldc #23
+        - String [URL: ]
+      [253] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [256] getstatic #97
+        - Fieldref [com/bugsense/a/d.d Ljava/lang/String;]
+      [259] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [262] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [265] invokestatic #114
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [268] pop
+      [269] invokestatic #123
+        - Methodref [com/bugsense/a/a.f ()Ljava/util/ArrayList;]
+      [272] pop
+      [273] invokestatic #157
+        - Methodref [java/lang/Thread.getDefaultUncaughtExceptionHandler ()Ljava/lang/Thread$UncaughtExceptionHandler;]
+      [276] dup
+      [277] astore_0 v0
+      [278] ifnull +41 (target=319)
+      [281] getstatic #89
+        - Fieldref [com/bugsense/a/a.c Z]
+      [284] ifeq +35 (target=319)
+      [287] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [290] new #75
+        - Class [java/lang/StringBuilder]
+      [293] dup
+      [294] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [297] ldc #28
+        - String [current handler class=]
+      [299] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [302] aload_0 v0
+      [303] invokevirtual #148
+        - Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [306] invokevirtual #142
+        - Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+      [309] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [312] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [315] invokestatic #114
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [318] pop
+      [319] aload_0 v0
+      [320] instanceof #54
+        - Class [com/bugsense/a/b]
+      [323] ifne +14 (target=337)
+      [326] new #54
+        - Class [com/bugsense/a/b]
+      [329] dup
+      [330] aload_0 v0
+      [331] invokespecial #124
+        - Methodref [com/bugsense/a/b.<init> (Ljava/lang/Thread$UncaughtExceptionHandler;)V]
+      [334] invokestatic #158
+        - Methodref [java/lang/Thread.setDefaultUncaughtExceptionHandler (Ljava/lang/Thread$UncaughtExceptionHandler;)V]
+      [337] aload_1 v1
+      [338] astore_0 v0
+      [339] getstatic #92
+        - Fieldref [com/bugsense/a/a.f Z]
+      [342] ifne +13 (target=355)
+      [345] new #73
+        - Class [java/lang/RuntimeException]
+      [348] dup
+      [349] ldc #37
+        - String [you need to call setup() first]
+      [351] invokespecial #149
+        - Methodref [java/lang/RuntimeException.<init> (Ljava/lang/String;)V]
+      [354] athrow
+      [355] invokestatic #123
+        - Methodref [com/bugsense/a/a.f ()Ljava/util/ArrayList;]
+      [358] invokevirtual #162
+        - Methodref [java/util/ArrayList.size ()I]
+      [361] ifle +7 (target=368)
+      [364] iconst_1
+      [365] goto +4 (target=369)
+      [368] iconst_0
+      [369] dup
+      [370] istore_1 v1
+      [371] ifeq +32 (target=403)
+      [374] getstatic #87
+        - Fieldref [com/bugsense/a/a.a Ljava/util/ArrayList;]
+      [377] astore_2 v2
+      [378] aconst_null
+      [379] putstatic #87
+        - Fieldref [com/bugsense/a/a.a Ljava/util/ArrayList;]
+      [382] new #58
+        - Class [com/bugsense/a/f]
+      [385] dup
+      [386] aload_0 v0
+      [387] aload_2 v2
+      [388] invokespecial #129
+        - Methodref [com/bugsense/a/f.<init> (Lcom/bugsense/a/h;Ljava/util/ArrayList;)V]
+      [391] dup
+      [392] putstatic #88
+        - Fieldref [com/bugsense/a/a.b Lcom/bugsense/a/c;]
+      [395] iconst_0
+      [396] anewarray #72
+        - Class [java/lang/Object]
+      [399] invokevirtual #127
+        - Methodref [com/bugsense/a/c.execute ([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+      [402] pop
+      [403] iload_1 v1
+      [404] ireturn
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (85 -> 109: 112):
+      - Class [android/content/pm/PackageManager$NameNotFoundException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 5):
+        - [43] Var: ..., Stack: (empty)
+        - [45] Var: ..., Stack: (empty)
+        - [112] Var: [a:android/content/Context][a:com/bugsense/a/h][a:java/lang/String][a:android/content/pm/PackageManager], Stack: [a:android/content/pm/PackageManager$NameNotFoundException]
+        - [123] Var: ..., Stack: (empty)
+        - [269] Var: ..., Stack: (empty)
+  + Method:       a(Landroid/content/Context;Ljava/lang/String;)Z
+    Access flags: 0x9
+      = public static boolean a(android.content.Context,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] new #59
+        - Class [com/bugsense/a/g]
+      [4] dup
+      [5] invokespecial #130
+        - Methodref [com/bugsense/a/g.<init> ()V]
+      [8] aload_1 v1
+      [9] invokestatic #121
+        - Methodref [com/bugsense/a/a.a (Landroid/content/Context;Lcom/bugsense/a/h;Ljava/lang/String;)Z]
+      [12] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       f()Ljava/util/ArrayList;
+    Access flags: 0xa
+      = private static java.util.ArrayList f()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 577, locals = 8, stack = 5):
+      [0] getstatic #87
+        - Fieldref [com/bugsense/a/a.a Ljava/util/ArrayList;]
+      [3] ifnull +7 (target=10)
+      [6] getstatic #87
+        - Fieldref [com/bugsense/a/a.a Ljava/util/ArrayList;]
+      [9] areturn
+      [10] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [13] new #75
+        - Class [java/lang/StringBuilder]
+      [16] dup
+      [17] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [20] ldc #17
+        - String [Looking for exceptions in: ]
+      [22] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [25] getstatic #94
+        - Fieldref [com/bugsense/a/d.a Ljava/lang/String;]
+      [28] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [31] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [34] invokestatic #114
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [37] pop
+      [38] new #63
+        - Class [java/io/File]
+      [41] dup
+      [42] new #75
+        - Class [java/lang/StringBuilder]
+      [45] dup
+      [46] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [49] getstatic #94
+        - Fieldref [com/bugsense/a/d.a Ljava/lang/String;]
+      [52] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [55] ldc #5
+        - String [/]
+      [57] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [60] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [63] invokespecial #135
+        - Methodref [java/io/File.<init> (Ljava/lang/String;)V]
+      [66] dup
+      [67] astore_0 v0
+      [68] invokevirtual #137
+        - Methodref [java/io/File.exists ()Z]
+      [71] ifne +8 (target=79)
+      [74] aload_0 v0
+      [75] invokevirtual #140
+        - Methodref [java/io/File.mkdir ()Z]
+      [78] pop
+      [79] new #61
+        - Class [com/bugsense/a/i]
+      [82] dup
+      [83] invokespecial #131
+        - Methodref [com/bugsense/a/i.<init> ()V]
+      [86] astore_1 v1
+      [87] aload_0 v0
+      [88] aload_1 v1
+      [89] invokevirtual #139
+        - Methodref [java/io/File.list (Ljava/io/FilenameFilter;)[Ljava/lang/String;]
+      [92] astore_0 v0
+      [93] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [96] new #75
+        - Class [java/lang/StringBuilder]
+      [99] dup
+      [100] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [103] ldc #16
+        - String [Found ]
+      [105] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [108] aload_0 v0
+      [109] arraylength
+      [110] invokevirtual #153
+        - Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [113] ldc #2
+        - String [ stacktrace(s)]
+      [115] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [118] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [121] invokestatic #114
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [124] pop
+      [125] new #80
+        - Class [java/util/ArrayList]
+      [128] dup
+      [129] invokespecial #159
+        - Methodref [java/util/ArrayList.<init> ()V]
+      [132] putstatic #87
+        - Fieldref [com/bugsense/a/a.a Ljava/util/ArrayList;]
+      [135] iconst_0
+      [136] istore_1 v1
+      [137] iload_1 v1
+      [138] aload_0 v0
+      [139] arraylength
+      [140] ificmpge +258 (target=398)
+      [143] getstatic #87
+        - Fieldref [com/bugsense/a/a.a Ljava/util/ArrayList;]
+      [146] invokevirtual #162
+        - Methodref [java/util/ArrayList.size ()I]
+      [149] iconst_5
+      [150] ificmpge +248 (target=398)
+      [153] new #75
+        - Class [java/lang/StringBuilder]
+      [156] dup
+      [157] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [160] getstatic #94
+        - Fieldref [com/bugsense/a/d.a Ljava/lang/String;]
+      [163] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [166] ldc #5
+        - String [/]
+      [168] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [171] aload_0 v0
+      [172] iload_1 v1
+      [173] aaload
+      [174] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [177] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [180] astore_2 v2
+      [181] aconst_null
+      [182] astore_3 v3
+      [183] aconst_null
+      [184] astore v4
+      [186] aload_0 v0
+      [187] iload_1 v1
+      [188] aaload
+      [189] ldc #4
+        - String [-]
+      [191] invokevirtual #151
+        - Methodref [java/lang/String.split (Ljava/lang/String;)[Ljava/lang/String;]
+      [194] iconst_0
+      [195] aaload
+      [196] astore v5
+      [198] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [201] new #75
+        - Class [java/lang/StringBuilder]
+      [204] dup
+      [205] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [208] ldc #21
+        - String [Stacktrace in file ']
+      [210] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [213] aload_2 v2
+      [214] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [217] ldc #3
+        - String [' belongs to version ]
+      [219] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [222] aload v5
+      [224] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [227] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [230] invokestatic #114
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [233] pop
+      [234] new #75
+        - Class [java/lang/StringBuilder]
+      [237] dup
+      [238] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [241] astore v6
+      [243] new #62
+        - Class [java/io/BufferedReader]
+      [246] dup
+      [247] new #65
+        - Class [java/io/FileReader]
+      [250] dup
+      [251] aload_2 v2
+      [252] invokespecial #141
+        - Methodref [java/io/FileReader.<init> (Ljava/lang/String;)V]
+      [255] invokespecial #132
+        - Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;)V]
+      [258] astore_2 v2
+      [259] aload_2 v2
+      [260] invokevirtual #134
+        - Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+      [263] dup
+      [264] astore v7
+      [266] ifnull +47 (target=313)
+      [269] aload_3 v3
+      [270] ifnonnull +9 (target=279)
+      [273] aload v7
+      [275] astore_3 v3
+      [276] goto -17 (target=259)
+      [279] aload v4
+      [281] ifnonnull +10 (target=291)
+      [284] aload v7
+      [286] astore v4
+      [288] goto -29 (target=259)
+      [291] aload v6
+      [293] aload v7
+      [295] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [298] pop
+      [299] aload v6
+      [301] ldc #31
+        - String [line.separator]
+      [303] invokestatic #156
+        - Methodref [java/lang/System.getProperty (Ljava/lang/String;)Ljava/lang/String;]
+      [306] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [309] pop
+      [310] goto -51 (target=259)
+      [313] aload_2 v2
+      [314] invokevirtual #133
+        - Methodref [java/io/BufferedReader.close ()V]
+      [317] goto +10 (target=327)
+      [320] astore_3 v3
+      [321] aload_2 v2
+      [322] invokevirtual #133
+        - Methodref [java/io/BufferedReader.close ()V]
+      [325] aload_3 v3
+      [326] athrow
+      [327] aload v6
+      [329] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [332] astore v7
+      [334] getstatic #87
+        - Fieldref [com/bugsense/a/a.a Ljava/util/ArrayList;]
+      [337] iconst_4
+      [338] anewarray #74
+        - Class [java/lang/String]
+      [341] dup
+      [342] iconst_0
+      [343] aload v5
+      [345] aastore
+      [346] dup
+      [347] iconst_1
+      [348] aload_3 v3
+      [349] aastore
+      [350] dup
+      [351] iconst_2
+      [352] aload v4
+      [354] aastore
+      [355] dup
+      [356] iconst_3
+      [357] aload v7
+      [359] aastore
+      [360] invokevirtual #160
+        - Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+      [363] pop
+      [364] goto +28 (target=392)
+      [367] astore_3 v3
+      [368] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [371] ldc #15
+        - String [Failed to load stack trace]
+      [373] aload_3 v3
+      [374] invokestatic #115
+        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+      [377] pop
+      [378] goto +14 (target=392)
+      [381] astore_3 v3
+      [382] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [385] ldc #15
+        - String [Failed to load stack trace]
+      [387] aload_3 v3
+      [388] invokestatic #115
+        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+      [391] pop
+      [392] iinc v1, 1
+      [395] goto -258 (target=137)
+      [398] getstatic #87
+        - Fieldref [com/bugsense/a/a.a Ljava/util/ArrayList;]
+      [401] astore_1 v1
+      [402] iconst_0
+      [403] istore_2 v2
+      [404] iload_2 v2
+      [405] aload_0 v0
+      [406] arraylength
+      [407] ificmpge +80 (target=487)
+      [410] new #63
+        - Class [java/io/File]
+      [413] dup
+      [414] new #75
+        - Class [java/lang/StringBuilder]
+      [417] dup
+      [418] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [421] getstatic #94
+        - Fieldref [com/bugsense/a/d.a Ljava/lang/String;]
+      [424] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [427] ldc #5
+        - String [/]
+      [429] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [432] aload_0 v0
+      [433] iload_2 v2
+      [434] aaload
+      [435] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [438] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [441] invokespecial #135
+        - Methodref [java/io/File.<init> (Ljava/lang/String;)V]
+      [444] invokevirtual #136
+        - Methodref [java/io/File.delete ()Z]
+      [447] pop
+      [448] goto +33 (target=481)
+      [451] astore_3 v3
+      [452] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [455] new #75
+        - Class [java/lang/StringBuilder]
+      [458] dup
+      [459] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [462] ldc #12
+        - String [Error deleting trace file: ]
+      [464] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [467] aload_0 v0
+      [468] iload_2 v2
+      [469] aaload
+      [470] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [473] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [476] aload_3 v3
+      [477] invokestatic #115
+        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+      [480] pop
+      [481] iinc v2, 1
+      [484] goto -80 (target=404)
+      [487] aload_1 v1
+      [488] areturn
+      [489] astore_1 v1
+      [490] iconst_0
+      [491] istore_2 v2
+      [492] iload_2 v2
+      [493] aload_0 v0
+      [494] arraylength
+      [495] ificmpge +80 (target=575)
+      [498] new #63
+        - Class [java/io/File]
+      [501] dup
+      [502] new #75
+        - Class [java/lang/StringBuilder]
+      [505] dup
+      [506] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [509] getstatic #94
+        - Fieldref [com/bugsense/a/d.a Ljava/lang/String;]
+      [512] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [515] ldc #5
+        - String [/]
+      [517] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [520] aload_0 v0
+      [521] iload_2 v2
+      [522] aaload
+      [523] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [526] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [529] invokespecial #135
+        - Methodref [java/io/File.<init> (Ljava/lang/String;)V]
+      [532] invokevirtual #136
+        - Methodref [java/io/File.delete ()Z]
+      [535] pop
+      [536] goto +33 (target=569)
+      [539] astore_3 v3
+      [540] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [543] new #75
+        - Class [java/lang/StringBuilder]
+      [546] dup
+      [547] invokespecial #152
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [550] ldc #12
+        - String [Error deleting trace file: ]
+      [552] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [555] aload_0 v0
+      [556] iload_2 v2
+      [557] aaload
+      [558] invokevirtual #154
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [561] invokevirtual #155
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [564] aload_3 v3
+      [565] invokestatic #115
+        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+      [568] pop
+      [569] iinc v2, 1
+      [572] goto -80 (target=492)
+      [575] aload_1 v1
+      [576] athrow
+      Code attribute exceptions (count = 6):
+      - ExceptionInfo (259 -> 313: 320):
+      - ExceptionInfo (181 -> 364: 367):
+      - Class [java/io/FileNotFoundException]
+      - ExceptionInfo (181 -> 364: 381):
+      - Class [java/io/IOException]
+      - ExceptionInfo (410 -> 448: 451):
+      - Class [java/lang/Exception]
+      - ExceptionInfo (125 -> 402: 489):
+      - ExceptionInfo (498 -> 536: 539):
+      - Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 23):
+        - [10] Var: ..., Stack: (empty)
+        - [79] Var: ...[a:java/io/File], Stack: (empty)
+        - [137] Var: [a:java/io/File][a:java/io/FilenameFilter][a:[Ljava/lang/String;][T][i], Stack: 
+        - [153] Var: ..., Stack: (empty)
+        - [259] Var: [a:java/io/File][a:java/io/FilenameFilter][a:[Ljava/lang/String;][T][i][a:java/lang/String][a:java/lang/String][a:java/lang/String][a:java/lang/String][a:java/lang/StringBuilder][a:java/io/BufferedReader][a:java/lang/String], Stack: 
+        - [279] Var: ..., Stack: (empty)
+        - [291] Var: ..., Stack: (empty)
+        - [313] Var: -1, Stack: (empty)
+        - [320] Var: ..., Stack: [a:java/lang/Throwable]
+        - [327] Var: ..., Stack: (empty)
+        - [367] Var: [a:java/io/File][a:java/io/FilenameFilter][a:[Ljava/lang/String;][T][i][a:java/lang/String], Stack: [a:java/io/FileNotFoundException]
+        - [381] Var: ..., Stack: [a:java/io/IOException]
+        - [392] Var: -1, Stack: (empty)
+        - [398] Var: -2, Stack: (empty)
+        - [404] Var: ...[T][a:java/util/ArrayList][i], Stack: (empty)
+        - [451] Var: ..., Stack: [a:java/lang/Exception]
+        - [481] Var: ..., Stack: (empty)
+        - [487] Var: -1, Stack: (empty)
+        - [489] Var: [a:java/io/File][a:java/io/FilenameFilter][a:[Ljava/lang/String;], Stack: [a:java/lang/Throwable]
+        - [492] Var: [a:java/io/File][a:java/io/FilenameFilter][a:[Ljava/lang/String;][T][T][T][T][T][T][T][T][T][T][a:java/lang/Throwable][i], Stack: 
+        - [539] Var: ..., Stack: [a:java/lang/Exception]
+        - [569] Var: ..., Stack: (empty)
+        - [575] Var: -1, Stack: (empty)
+  + Method:       a(Ljava/lang/String;)Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 89, locals = 6, stack = 3):
+      [0] ldc #29
+        - String [false]
+      [2] astore_1 v1
+      [3] getstatic #93
+        - Fieldref [com/bugsense/a/a.g Landroid/content/Context;]
+      [6] invokevirtual #104
+        - Methodref [android/content/Context.getPackageManager ()Landroid/content/pm/PackageManager;]
+      [9] ldc #26
+        - String [android.permission.ACCESS_NETWORK_STATE]
+      [11] getstatic #96
+        - Fieldref [com/bugsense/a/d.c Ljava/lang/String;]
+      [14] invokevirtual #107
+        - Methodref [android/content/pm/PackageManager.checkPermission (Ljava/lang/String;Ljava/lang/String;)I]
+      [17] ifne +67 (target=84)
+      [20] getstatic #93
+        - Fieldref [com/bugsense/a/a.g Landroid/content/Context;]
+      [23] ldc #27
+        - String [connectivity]
+      [25] invokevirtual #106
+        - Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+      [28] checkcast #45
+        - Class [android/net/ConnectivityManager]
+      [31] invokevirtual #110
+        - Methodref [android/net/ConnectivityManager.getAllNetworkInfo ()[Landroid/net/NetworkInfo;]
+      [34] dup
+      [35] astore_2 v2
+      [36] arraylength
+      [37] istore_3 v3
+      [38] iconst_0
+      [39] istore v4
+      [41] iload v4
+      [43] iload_3 v3
+      [44] ificmpge +37 (target=81)
+      [47] aload_2 v2
+      [48] iload v4
+      [50] aaload
+      [51] dup
+      [52] astore v5
+      [54] invokevirtual #111
+        - Methodref [android/net/NetworkInfo.getTypeName ()Ljava/lang/String;]
+      [57] aload_0 v0
+      [58] invokevirtual #150
+        - Methodref [java/lang/String.equalsIgnoreCase (Ljava/lang/String;)Z]
+      [61] ifeq +14 (target=75)
+      [64] aload v5
+      [66] invokevirtual #112
+        - Methodref [android/net/NetworkInfo.isConnected ()Z]
+      [69] ifeq +6 (target=75)
+      [72] ldc #35
+        - String [true]
+      [74] astore_1 v1
+      [75] iinc v4, 1
+      [78] goto -37 (target=41)
+      [81] goto +6 (target=87)
+      [84] ldc #34
+        - String [not available [permissions]]
+      [86] astore_1 v1
+      [87] aload_1 v1
+      [88] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 5):
+        - [41] Var: [a:java/lang/String][a:java/lang/String][a:android/content/pm/PackageManager][a:android/net/ConnectivityManager][a:[Landroid/net/NetworkInfo;][a:[Landroid/net/NetworkInfo;][i][i], Stack: 
+        - [75] Var: ..., Stack: (empty)
+        - [81] Var: [a:java/lang/String][a:java/lang/String][a:android/content/pm/PackageManager], Stack: 
+        - [84] Var: ..., Stack: (empty)
+        - [87] Var: ..., Stack: (empty)
+  + Method:       a()Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 0, stack = 1):
+      [0] ldc #24
+        - String [WIFI]
+      [2] invokestatic #122
+        - Methodref [com/bugsense/a/a.a (Ljava/lang/String;)Ljava/lang/String;]
+      [5] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 0, stack = 1):
+      [0] ldc #18
+        - String [MOBILE]
+      [2] invokestatic #122
+        - Methodref [com/bugsense/a/a.a (Ljava/lang/String;)Ljava/lang/String;]
+      [5] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       c()Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 50, locals = 1, stack = 3):
+      [0] ldc #35
+        - String [true]
+      [2] astore_0 v0
+      [3] getstatic #93
+        - Fieldref [com/bugsense/a/a.g Landroid/content/Context;]
+      [6] invokevirtual #104
+        - Methodref [android/content/Context.getPackageManager ()Landroid/content/pm/PackageManager;]
+      [9] ldc #25
+        - String [android.permission.ACCESS_FINE_LOCATION]
+      [11] getstatic #96
+        - Fieldref [com/bugsense/a/d.c Ljava/lang/String;]
+      [14] invokevirtual #107
+        - Methodref [android/content/pm/PackageManager.checkPermission (Ljava/lang/String;Ljava/lang/String;)I]
+      [17] ifne +28 (target=45)
+      [20] getstatic #93
+        - Fieldref [com/bugsense/a/a.g Landroid/content/Context;]
+      [23] ldc #32
+        - String [location]
+      [25] invokevirtual #106
+        - Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+      [28] checkcast #44
+        - Class [android/location/LocationManager]
+      [31] ldc #30
+        - String [gps]
+      [33] invokevirtual #109
+        - Methodref [android/location/LocationManager.isProviderEnabled (Ljava/lang/String;)Z]
+      [36] ifne +6 (target=42)
+      [39] ldc #29
+        - String [false]
+      [41] astore_0 v0
+      [42] goto +6 (target=48)
+      [45] ldc #34
+        - String [not available [permissions]]
+      [47] astore_0 v0
+      [48] aload_0 v0
+      [49] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [42] Var: ...[a:java/lang/String][a:android/content/pm/PackageManager], Stack: (empty)
+        - [45] Var: ..., Stack: (empty)
+        - [48] Var: ..., Stack: (empty)
+  + Method:       d()[Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String[] d()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 192, locals = 6, stack = 4):
+      [0] iconst_5
+      [1] anewarray #74
+        - Class [java/lang/String]
+      [4] dup
+      [5] iconst_0
+      [6] ldc #19
+        - String [Not available]
+      [8] aastore
+      [9] dup
+      [10] iconst_1
+      [11] ldc #19
+        - String [Not available]
+      [13] aastore
+      [14] dup
+      [15] iconst_2
+      [16] ldc #19
+        - String [Not available]
+      [18] aastore
+      [19] dup
+      [20] iconst_3
+      [21] ldc #19
+        - String [Not available]
+      [23] aastore
+      [24] dup
+      [25] iconst_4
+      [26] ldc #19
+        - String [Not available]
+      [28] aastore
+      [29] astore_0 v0
+      [30] new #49
+        - Class [android/util/DisplayMetrics]
+      [33] dup
+      [34] invokespecial #113
+        - Methodref [android/util/DisplayMetrics.<init> ()V]
+      [37] astore_1 v1
+      [38] getstatic #93
+        - Fieldref [com/bugsense/a/a.g Landroid/content/Context;]
+      [41] invokevirtual #104
+        - Methodref [android/content/Context.getPackageManager ()Landroid/content/pm/PackageManager;]
+      [44] pop
+      [45] getstatic #93
+        - Fieldref [com/bugsense/a/a.g Landroid/content/Context;]
+      [48] ldc #36
+        - String [window]
+      [50] invokevirtual #106
+        - Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+      [53] checkcast #52
+        - Class [android/view/WindowManager]
+      [56] invokeinterface #163
+        - InterfaceMethodref [android/view/WindowManager.getDefaultDisplay ()Landroid/view/Display;]
+      [61] dup
+      [62] astore_2 v2
+      [63] invokevirtual #120
+        - Methodref [android/view/Display.getWidth ()I]
+      [66] istore_3 v3
+      [67] aload_2 v2
+      [68] invokevirtual #117
+        - Methodref [android/view/Display.getHeight ()I]
+      [71] istore v4
+      [73] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [76] getstatic #84
+        - Fieldref [android/os/Build$VERSION.RELEASE Ljava/lang/String;]
+      [79] invokestatic #116
+        - Methodref [android/util/Log.i (Ljava/lang/String;Ljava/lang/String;)I]
+      [82] pop
+      [83] aload_2 v2
+      [84] invokevirtual #119
+        - Methodref [android/view/Display.getOrientation ()I]
+      [87] istore v5
+      [89] aload_0 v0
+      [90] iconst_0
+      [91] iload_3 v3
+      [92] invokestatic #145
+        - Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
+      [95] aastore
+      [96] aload_0 v0
+      [97] iconst_1
+      [98] iload v4
+      [100] invokestatic #145
+        - Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
+      [103] aastore
+      [104] ldc #1
+        - String []
+      [106] astore_3 v3
+      [107] iload v5
+      [109] tableswitch (4 offsets, default=52) (target=161)
+        0: offset = 31, target = 140
+        1: offset = 49, target = 158
+        2: offset = 37, target = 146
+        3: offset = 43, target = 152
+        default: offset = 52, target = 161
+      [140] ldc #33
+        - String [normal]
+      [142] astore_3 v3
+      [143] goto +18 (target=161)
+      [146] ldc #6
+        - String [180]
+      [148] astore_3 v3
+      [149] goto +12 (target=161)
+      [152] ldc #7
+        - String [270]
+      [154] astore_3 v3
+      [155] goto +6 (target=161)
+      [158] ldc #8
+        - String [90]
+      [160] astore_3 v3
+      [161] aload_0 v0
+      [162] iconst_2
+      [163] aload_3 v3
+      [164] aastore
+      [165] aload_2 v2
+      [166] aload_1 v1
+      [167] invokevirtual #118
+        - Methodref [android/view/Display.getMetrics (Landroid/util/DisplayMetrics;)V]
+      [170] aload_0 v0
+      [171] iconst_3
+      [172] aload_1 v1
+      [173] getfield #85
+        - Fieldref [android/util/DisplayMetrics.xdpi F]
+      [176] invokestatic #143
+        - Methodref [java/lang/Float.toString (F)Ljava/lang/String;]
+      [179] aastore
+      [180] aload_0 v0
+      [181] iconst_4
+      [182] aload_1 v1
+      [183] getfield #86
+        - Fieldref [android/util/DisplayMetrics.ydpi F]
+      [186] invokestatic #143
+        - Methodref [java/lang/Float.toString (F)Ljava/lang/String;]
+      [189] aastore
+      [190] aload_0 v0
+      [191] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 5):
+        - [140] Var: [a:[Ljava/lang/String;][a:android/util/DisplayMetrics][a:android/content/pm/PackageManager][a:android/view/Display][i][i][i][a:java/lang/String], Stack: 
+        - [146] Var: ..., Stack: (empty)
+        - [152] Var: ..., Stack: (empty)
+        - [158] Var: ..., Stack: (empty)
+        - [161] Var: ..., Stack: (empty)
+  + Method:       a(Ljava/util/ArrayList;)V
+    Access flags: 0x1008
+      = static void a(java.util.ArrayList)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 58, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] dup
+      [2] astore_0 v0
+      [3] ifnonnull +4 (target=7)
+      [6] return
+      [7] iconst_0
+      [8] istore_1 v1
+      [9] iload_1 v1
+      [10] aload_0 v0
+      [11] invokevirtual #162
+        - Methodref [java/util/ArrayList.size ()I]
+      [14] ificmpge +31 (target=45)
+      [17] aload_0 v0
+      [18] iload_1 v1
+      [19] invokevirtual #161
+        - Methodref [java/util/ArrayList.get (I)Ljava/lang/Object;]
+      [22] checkcast #39
+        - Class [[Ljava/lang/String;]
+      [25] iconst_3
+      [26] aaload
+      [27] astore_2 v2
+      [28] getstatic #91
+        - Fieldref [com/bugsense/a/a.e Ljava/lang/Integer;]
+      [31] invokevirtual #144
+        - Methodref [java/lang/Integer.intValue ()I]
+      [34] aconst_null
+      [35] aload_2 v2
+      [36] invokestatic #128
+        - Methodref [com/bugsense/a/e.a (ILjava/util/Date;Ljava/lang/String;)V]
+      [39] iinc v1, 1
+      [42] goto -33 (target=9)
+      [45] return
+      [46] astore_1 v1
+      [47] getstatic #98
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [50] ldc #13
+        - String [Error submitting trace]
+      [52] aload_1 v1
+      [53] invokestatic #115
+        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+      [56] pop
+      [57] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (7 -> 45: 46):
+      - Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 0):
+  + Method:       e()I
+    Access flags: 0x1008
+      = static int e()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 4, locals = 0, stack = 1):
+      [0] getstatic #90
+        - Fieldref [com/bugsense/a/a.d I]
+      [3] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 28, locals = 0, stack = 1):
+      [0] aconst_null
+      [1] putstatic #87
+        - Fieldref [com/bugsense/a/a.a Ljava/util/ArrayList;]
+      [4] iconst_0
+      [5] putstatic #89
+        - Fieldref [com/bugsense/a/a.c Z]
+      [8] iconst_0
+      [9] putstatic #90
+        - Fieldref [com/bugsense/a/a.d I]
+      [12] iconst_1
+      [13] invokestatic #146
+        - Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [16] putstatic #91
+        - Fieldref [com/bugsense/a/a.e Ljava/lang/Integer;]
+      [19] iconst_0
+      [20] putstatic #92
+        - Fieldref [com/bugsense/a/a.f Z]
+      [23] aconst_null
+      [24] putstatic #93
+        - Fieldref [com/bugsense/a/a.g Landroid/content/Context;]
+      [27] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bugsense/a/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.bugsense.a.b extends java.lang.Object
+
+Interfaces (count = 1):
+  - Class [java/lang/Thread$UncaughtExceptionHandler]
+
+Constant Pool (count = 135):
+  - Integer [99999]
+  - String [
+]
+  - String [-]
+  - String [.stacktrace]
+  - String [/]
+  - String [Error saving exception stacktrace]
+  - String [Error sending exception stacktrace]
+  - String [Writing unhandled exception to: ]
+  - Class [android/util/Log]
+  - Class [com/bugsense/a/b]
+  - Class [com/bugsense/a/d]
+  - Class [com/bugsense/a/e]
+  - Class [java/io/BufferedWriter]
+  - Class [java/io/FileWriter]
+  - Class [java/io/PrintWriter]
+  - Class [java/io/StringWriter]
+  - Class [java/io/Writer]
+  - Class [java/lang/Exception]
+  - Class [java/lang/Integer]
+  - Class [java/lang/Object]
+  - Class [java/lang/StringBuilder]
+  - Class [java/lang/Thread]
+  - Class [java/lang/Thread$UncaughtExceptionHandler]
+  - Class [java/lang/Throwable]
+  - Class [java/util/Date]
+  - Class [java/util/Random]
+  - Fieldref [com/bugsense/a/b.a Ljava/lang/Thread$UncaughtExceptionHandler;]
+  - Fieldref [com/bugsense/a/d.a Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.b Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.f Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.g Ljava/lang/String;]
+  - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+  - Methodref [com/bugsense/a/e.a (ILjava/util/Date;Ljava/lang/String;)V]
+  - Methodref [java/io/BufferedWriter.<init> (Ljava/io/Writer;)V]
+  - Methodref [java/io/BufferedWriter.close ()V]
+  - Methodref [java/io/BufferedWriter.flush ()V]
+  - Methodref [java/io/BufferedWriter.write (Ljava/lang/String;)V]
+  - Methodref [java/io/FileWriter.<init> (Ljava/lang/String;)V]
+  - Methodref [java/io/PrintWriter.<init> (Ljava/io/Writer;)V]
+  - Methodref [java/io/StringWriter.<init> ()V]
+  - Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+  - Methodref [java/lang/StringBuilder.<init> ()V]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  - Methodref [java/lang/Throwable.printStackTrace (Ljava/io/PrintWriter;)V]
+  - Methodref [java/util/Date.<init> ()V]
+  - Methodref [java/util/Random.<init> ()V]
+  - Methodref [java/util/Random.nextInt (I)I]
+  - InterfaceMethodref [java/lang/Thread$UncaughtExceptionHandler.uncaughtException (Ljava/lang/Thread;Ljava/lang/Throwable;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/io/Writer;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a (ILjava/util/Date;Ljava/lang/String;)V]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [a Ljava/lang/Thread$UncaughtExceptionHandler;]
+  + NameAndType [append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [close ()V]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+  + NameAndType [e Ljava/lang/String;]
+  + NameAndType [f Ljava/lang/String;]
+  + NameAndType [flush ()V]
+  + NameAndType [g Ljava/lang/String;]
+  + NameAndType [nextInt (I)I]
+  + NameAndType [printStackTrace (Ljava/io/PrintWriter;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [toString (I)Ljava/lang/String;]
+  + NameAndType [uncaughtException (Ljava/lang/Thread;Ljava/lang/Throwable;)V]
+  + NameAndType [write (Ljava/lang/String;)V]
+  + Utf8 [
+]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)I]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(ILjava/util/Date;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/io/PrintWriter;)V]
+  + Utf8 [(Ljava/io/Writer;)V]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+  + Utf8 [(Ljava/lang/Thread$UncaughtExceptionHandler;)V]
+  + Utf8 [(Ljava/lang/Thread;Ljava/lang/Throwable;)V]
+  + Utf8 [-]
+  + Utf8 [.stacktrace]
+  + Utf8 [/]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Error saving exception stacktrace]
+  + Utf8 [Error sending exception stacktrace]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Ljava/lang/Thread$UncaughtExceptionHandler;]
+  + Utf8 [StackMapTable]
+  + Utf8 [Writing unhandled exception to: ]
+  + Utf8 [a]
+  + Utf8 [android/util/Log]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [close]
+  + Utf8 [com/bugsense/a/b]
+  + Utf8 [com/bugsense/a/d]
+  + Utf8 [com/bugsense/a/e]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [flush]
+  + Utf8 [g]
+  + Utf8 [java/io/BufferedWriter]
+  + Utf8 [java/io/FileWriter]
+  + Utf8 [java/io/PrintWriter]
+  + Utf8 [java/io/StringWriter]
+  + Utf8 [java/io/Writer]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/lang/Thread]
+  + Utf8 [java/lang/Thread$UncaughtExceptionHandler]
+  + Utf8 [java/lang/Throwable]
+  + Utf8 [java/util/Date]
+  + Utf8 [java/util/Random]
+  + Utf8 [nextInt]
+  + Utf8 [printStackTrace]
+  + Utf8 [toString]
+  + Utf8 [uncaughtException]
+  + Utf8 [write]
+
+Fields (count = 1):
+  + Field:        a Ljava/lang/Thread$UncaughtExceptionHandler;
+    Access flags: 0x2
+      = private java.lang.Thread$UncaughtExceptionHandler a
+
+Methods (count = 2):
+  - Method:       <init>(Ljava/lang/Thread$UncaughtExceptionHandler;)V
+    Access flags: 0x1
+      = public b(java.lang.Thread$UncaughtExceptionHandler)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #44
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #27
+        - Fieldref [com/bugsense/a/b.a Ljava/lang/Thread$UncaughtExceptionHandler;]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
+    Access flags: 0x11
+      = public final void uncaughtException(java.lang.Thread,java.lang.Throwable)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 326, locals = 6, stack = 6):
+      [0] new #25
+        - Class [java/util/Date]
+      [3] dup
+      [4] invokespecial #51
+        - Methodref [java/util/Date.<init> ()V]
+      [7] astore_3 v3
+      [8] new #16
+        - Class [java/io/StringWriter]
+      [11] dup
+      [12] invokespecial #42
+        - Methodref [java/io/StringWriter.<init> ()V]
+      [15] astore v4
+      [17] new #15
+        - Class [java/io/PrintWriter]
+      [20] dup
+      [21] aload v4
+      [23] invokespecial #41
+        - Methodref [java/io/PrintWriter.<init> (Ljava/io/Writer;)V]
+      [26] astore v5
+      [28] aload_2 v2
+      [29] aload v5
+      [31] invokevirtual #50
+        - Methodref [java/lang/Throwable.printStackTrace (Ljava/io/PrintWriter;)V]
+      [34] iconst_0
+      [35] aload_3 v3
+      [36] aload v4
+      [38] invokevirtual #45
+        - Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+      [41] invokestatic #35
+        - Methodref [com/bugsense/a/e.a (ILjava/util/Date;Ljava/lang/String;)V]
+      [44] goto +258 (target=302)
+      [47] pop
+      [48] getstatic #30
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [51] ldc #7
+        - String [Error sending exception stacktrace]
+      [53] aload_2 v2
+      [54] invokestatic #34
+        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+      [57] pop
+      [58] new #26
+        - Class [java/util/Random]
+      [61] dup
+      [62] invokespecial #52
+        - Methodref [java/util/Random.<init> ()V]
+      [65] ldc #1
+        - Integer [99999]
+      [67] invokevirtual #53
+        - Methodref [java/util/Random.nextInt (I)I]
+      [70] istore v5
+      [72] new #21
+        - Class [java/lang/StringBuilder]
+      [75] dup
+      [76] invokespecial #46
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [79] getstatic #29
+        - Fieldref [com/bugsense/a/d.b Ljava/lang/String;]
+      [82] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [85] ldc #3
+        - String [-]
+      [87] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [90] iload v5
+      [92] invokestatic #43
+        - Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
+      [95] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [98] invokevirtual #49
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [101] astore v5
+      [103] getstatic #30
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [106] new #21
+        - Class [java/lang/StringBuilder]
+      [109] dup
+      [110] invokespecial #46
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [113] ldc #8
+        - String [Writing unhandled exception to: ]
+      [115] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [118] getstatic #28
+        - Fieldref [com/bugsense/a/d.a Ljava/lang/String;]
+      [121] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [124] ldc #5
+        - String [/]
+      [126] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [129] aload v5
+      [131] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [134] ldc #4
+        - String [.stacktrace]
+      [136] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [139] invokevirtual #49
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [142] invokestatic #33
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [145] pop
+      [146] new #13
+        - Class [java/io/BufferedWriter]
+      [149] dup
+      [150] new #14
+        - Class [java/io/FileWriter]
+      [153] dup
+      [154] new #21
+        - Class [java/lang/StringBuilder]
+      [157] dup
+      [158] invokespecial #46
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [161] getstatic #28
+        - Fieldref [com/bugsense/a/d.a Ljava/lang/String;]
+      [164] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [167] ldc #5
+        - String [/]
+      [169] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [172] aload v5
+      [174] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [177] ldc #4
+        - String [.stacktrace]
+      [179] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [182] invokevirtual #49
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [185] invokespecial #40
+        - Methodref [java/io/FileWriter.<init> (Ljava/lang/String;)V]
+      [188] invokespecial #36
+        - Methodref [java/io/BufferedWriter.<init> (Ljava/io/Writer;)V]
+      [191] dup
+      [192] astore v5
+      [194] new #21
+        - Class [java/lang/StringBuilder]
+      [197] dup
+      [198] invokespecial #46
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [201] getstatic #31
+        - Fieldref [com/bugsense/a/d.f Ljava/lang/String;]
+      [204] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [207] ldc #2
+        - String [
+]
+      [209] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [212] invokevirtual #49
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [215] invokevirtual #39
+        - Methodref [java/io/BufferedWriter.write (Ljava/lang/String;)V]
+      [218] aload v5
+      [220] new #21
+        - Class [java/lang/StringBuilder]
+      [223] dup
+      [224] invokespecial #46
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [227] getstatic #32
+        - Fieldref [com/bugsense/a/d.g Ljava/lang/String;]
+      [230] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [233] ldc #2
+        - String [
+]
+      [235] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [238] invokevirtual #49
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [241] invokevirtual #39
+        - Methodref [java/io/BufferedWriter.write (Ljava/lang/String;)V]
+      [244] aload v5
+      [246] new #21
+        - Class [java/lang/StringBuilder]
+      [249] dup
+      [250] invokespecial #46
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [253] aload_3 v3
+      [254] invokevirtual #47
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+      [257] ldc #2
+        - String [
+]
+      [259] invokevirtual #48
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [262] invokevirtual #49
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [265] invokevirtual #39
+        - Methodref [java/io/BufferedWriter.write (Ljava/lang/String;)V]
+      [268] aload v5
+      [270] aload v4
+      [272] invokevirtual #45
+        - Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+      [275] invokevirtual #39
+        - Methodref [java/io/BufferedWriter.write (Ljava/lang/String;)V]
+      [278] aload v5
+      [280] invokevirtual #38
+        - Methodref [java/io/BufferedWriter.flush ()V]
+      [283] aload v5
+      [285] invokevirtual #37
+        - Methodref [java/io/BufferedWriter.close ()V]
+      [288] goto +14 (target=302)
+      [291] pop
+      [292] getstatic #30
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [295] ldc #6
+        - String [Error saving exception stacktrace]
+      [297] aload_2 v2
+      [298] invokestatic #34
+        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+      [301] pop
+      [302] getstatic #30
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [305] aload v4
+      [307] invokevirtual #45
+        - Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+      [310] invokestatic #33
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [313] pop
+      [314] aload_0 v0
+      [315] getfield #27
+        - Fieldref [com/bugsense/a/b.a Ljava/lang/Thread$UncaughtExceptionHandler;]
+      [318] aload_1 v1
+      [319] aload_2 v2
+      [320] invokeinterface #54
+        - InterfaceMethodref [java/lang/Thread$UncaughtExceptionHandler.uncaughtException (Ljava/lang/Thread;Ljava/lang/Throwable;)V]
+      [325] return
+      Code attribute exceptions (count = 2):
+      - ExceptionInfo (34 -> 44: 47):
+      - Class [java/lang/Exception]
+      - ExceptionInfo (58 -> 288: 291):
+      - Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [47] Var: [a:com/bugsense/a/b][a:java/lang/Thread][a:java/lang/Throwable][a:java/util/Date][i][a:java/io/Writer][a:java/io/PrintWriter], Stack: [a:java/lang/Exception]
+        - [291] Var: [a:com/bugsense/a/b][a:java/lang/Thread][a:java/lang/Throwable][a:java/util/Date][i][a:java/io/Writer][a:java/io/PrintWriter][a:java/lang/Exception], Stack: [a:java/lang/Exception]
+        - [302] Var: -1, Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bugsense/a/c
+  Superclass:    android/os/AsyncTask
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x421
+    = public abstract class com.bugsense.a.c extends android.os.AsyncTask
+
+Interfaces (count = 0):
+
+Constant Pool (count = 48):
+  - Class [android/os/AsyncTask]
+  - Class [android/os/AsyncTask$Status]
+  - Class [com/bugsense/a/c]
+  - Class [java/lang/IllegalStateException]
+  - Fieldref [android/os/AsyncTask$Status.FINISHED Landroid/os/AsyncTask$Status;]
+  - Fieldref [android/os/AsyncTask$Status.RUNNING Landroid/os/AsyncTask$Status;]
+  - Fieldref [com/bugsense/a/c.a Ljava/lang/Object;]
+  - Fieldref [com/bugsense/a/c.b Z]
+  - Fieldref [com/bugsense/a/c.c Ljava/lang/Object;]
+  - Methodref [android/os/AsyncTask.<init> ()V]
+  - Methodref [android/os/AsyncTask.onPostExecute (Ljava/lang/Object;)V]
+  - Methodref [com/bugsense/a/c.a (Ljava/lang/Object;)V]
+  - Methodref [com/bugsense/a/c.getStatus ()Landroid/os/AsyncTask$Status;]
+  - Methodref [com/bugsense/a/c.onPreExecute ()V]
+  - Methodref [java/lang/IllegalStateException.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [FINISHED Landroid/os/AsyncTask$Status;]
+  + NameAndType [RUNNING Landroid/os/AsyncTask$Status;]
+  + NameAndType [a (Ljava/lang/Object;)V]
+  + NameAndType [a Ljava/lang/Object;]
+  + NameAndType [b Z]
+  + NameAndType [c Ljava/lang/Object;]
+  + NameAndType [getStatus ()Landroid/os/AsyncTask$Status;]
+  + NameAndType [onPostExecute (Ljava/lang/Object;)V]
+  + NameAndType [onPreExecute ()V]
+  + Utf8 [()Landroid/os/AsyncTask$Status;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(Ljava/lang/Object;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [FINISHED]
+  + Utf8 [Landroid/os/AsyncTask$Status;]
+  + Utf8 [Ljava/lang/Object;]
+  + Utf8 [RUNNING]
+  + Utf8 [StackMapTable]
+  + Utf8 [Z]
+  + Utf8 [a]
+  + Utf8 [android/os/AsyncTask]
+  + Utf8 [android/os/AsyncTask$Status]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/bugsense/a/c]
+  + Utf8 [getStatus]
+  + Utf8 [java/lang/IllegalStateException]
+  + Utf8 [onPostExecute]
+  + Utf8 [onPreExecute]
+
+Fields (count = 3):
+  + Field:        a Ljava/lang/Object;
+    Access flags: 0x42
+      = private volatile java.lang.Object a
+  + Field:        b Z
+    Access flags: 0x42
+      = private volatile boolean b
+  + Field:        c Ljava/lang/Object;
+    Access flags: 0x2
+      = private java.lang.Object c
+
+Methods (count = 4):
+  - Method:       <init>(Ljava/lang/Object;)V
+    Access flags: 0x1
+      = public c(java.lang.Object)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #10
+        - Methodref [android/os/AsyncTask.<init> ()V]
+      [4] aload_0 v0
+      [5] iconst_0
+      [6] putfield #8
+        - Fieldref [com/bugsense/a/c.b Z]
+      [9] aload_0 v0
+      [10] aload_1 v1
+      [11] invokevirtual #12
+        - Methodref [com/bugsense/a/c.a (Ljava/lang/Object;)V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/Object;)V
+    Access flags: 0x11
+      = public final void a(java.lang.Object)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 74, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #7
+        - Fieldref [com/bugsense/a/c.a Ljava/lang/Object;]
+      [4] ifnull +15 (target=19)
+      [7] aload_1 v1
+      [8] ifnull +11 (target=19)
+      [11] new #4
+        - Class [java/lang/IllegalStateException]
+      [14] dup
+      [15] invokespecial #15
+        - Methodref [java/lang/IllegalStateException.<init> ()V]
+      [18] athrow
+      [19] aload_0 v0
+      [20] aload_1 v1
+      [21] putfield #7
+        - Fieldref [com/bugsense/a/c.a Ljava/lang/Object;]
+      [24] aload_0 v0
+      [25] getfield #7
+        - Fieldref [com/bugsense/a/c.a Ljava/lang/Object;]
+      [28] ifnull +45 (target=73)
+      [31] aload_0 v0
+      [32] invokevirtual #13
+        - Methodref [com/bugsense/a/c.getStatus ()Landroid/os/AsyncTask$Status;]
+      [35] getstatic #6
+        - Fieldref [android/os/AsyncTask$Status.RUNNING Landroid/os/AsyncTask$Status;]
+      [38] ifacmpne +8 (target=46)
+      [41] aload_0 v0
+      [42] invokevirtual #14
+        - Methodref [com/bugsense/a/c.onPreExecute ()V]
+      [45] return
+      [46] aload_0 v0
+      [47] invokevirtual #13
+        - Methodref [com/bugsense/a/c.getStatus ()Landroid/os/AsyncTask$Status;]
+      [50] getstatic #5
+        - Fieldref [android/os/AsyncTask$Status.FINISHED Landroid/os/AsyncTask$Status;]
+      [53] ifacmpne +20 (target=73)
+      [56] aload_0 v0
+      [57] getfield #8
+        - Fieldref [com/bugsense/a/c.b Z]
+      [60] ifne +13 (target=73)
+      [63] aload_0 v0
+      [64] iconst_1
+      [65] putfield #8
+        - Fieldref [com/bugsense/a/c.b Z]
+      [68] aload_0 v0
+      [69] aconst_null
+      [70] putfield #9
+        - Fieldref [com/bugsense/a/c.c Ljava/lang/Object;]
+      [73] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [19] Var: ..., Stack: (empty)
+        - [46] Var: ..., Stack: (empty)
+        - [73] Var: ..., Stack: (empty)
+  + Method:       a()Z
+    Access flags: 0x11
+      = public final boolean a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #8
+        - Fieldref [com/bugsense/a/c.b Z]
+      [4] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onPostExecute(Ljava/lang/Object;)V
+    Access flags: 0x4
+      = protected void onPostExecute(java.lang.Object)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 24, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #11
+        - Methodref [android/os/AsyncTask.onPostExecute (Ljava/lang/Object;)V]
+      [5] aload_0 v0
+      [6] getfield #7
+        - Fieldref [com/bugsense/a/c.a Ljava/lang/Object;]
+      [9] ifnull +9 (target=18)
+      [12] aload_0 v0
+      [13] iconst_1
+      [14] putfield #8
+        - Fieldref [com/bugsense/a/c.b Z]
+      [17] return
+      [18] aload_0 v0
+      [19] aload_1 v1
+      [20] putfield #9
+        - Fieldref [com/bugsense/a/c.c Ljava/lang/Object;]
+      [23] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [18] Var: ..., Stack: (empty)
+        - [23] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bugsense/a/d
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.bugsense.a.d extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 52):
+  - String [0.6.0]
+  - String [BugSenseHandler]
+  - String [http://bugsense.appspot.com/api/errors]
+  - String [null]
+  - String [unknown]
+  - Class [com/bugsense/a/d]
+  - Class [java/lang/Object]
+  - Fieldref [com/bugsense/a/d.a Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.b Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.c Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.d Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.f Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.g Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.h Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.i Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.j Ljava/lang/String;]
+  - Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [c Ljava/lang/String;]
+  + NameAndType [d Ljava/lang/String;]
+  + NameAndType [e Ljava/lang/String;]
+  + NameAndType [f Ljava/lang/String;]
+  + NameAndType [g Ljava/lang/String;]
+  + NameAndType [h Ljava/lang/String;]
+  + NameAndType [i Ljava/lang/String;]
+  + NameAndType [j Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [0.6.0]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [BugSenseHandler]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [a]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/bugsense/a/d]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [g]
+  + Utf8 [h]
+  + Utf8 [http://bugsense.appspot.com/api/errors]
+  + Utf8 [i]
+  + Utf8 [j]
+  + Utf8 [java/lang/Object]
+  + Utf8 [null]
+  + Utf8 [unknown]
+
+Fields (count = 10):
+  + Field:        a Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String a
+  + Field:        b Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String b
+  + Field:        c Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String c
+  + Field:        d Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String d
+  + Field:        e Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String e
+  + Field:        f Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String f
+  + Field:        g Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String g
+  + Field:        j Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String j
+  + Field:        h Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String h
+  + Field:        i Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String i
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public d()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #18
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 47, locals = 0, stack = 1):
+      [0] ldc #4
+        - String [null]
+      [2] putstatic #8
+        - Fieldref [com/bugsense/a/d.a Ljava/lang/String;]
+      [5] ldc #5
+        - String [unknown]
+      [7] putstatic #9
+        - Fieldref [com/bugsense/a/d.b Ljava/lang/String;]
+      [10] ldc #5
+        - String [unknown]
+      [12] putstatic #10
+        - Fieldref [com/bugsense/a/d.c Ljava/lang/String;]
+      [15] ldc #3
+        - String [http://bugsense.appspot.com/api/errors]
+      [17] putstatic #11
+        - Fieldref [com/bugsense/a/d.d Ljava/lang/String;]
+      [20] ldc #2
+        - String [BugSenseHandler]
+      [22] putstatic #12
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [25] aconst_null
+      [26] putstatic #13
+        - Fieldref [com/bugsense/a/d.f Ljava/lang/String;]
+      [29] aconst_null
+      [30] putstatic #14
+        - Fieldref [com/bugsense/a/d.g Ljava/lang/String;]
+      [33] aconst_null
+      [34] putstatic #17
+        - Fieldref [com/bugsense/a/d.j Ljava/lang/String;]
+      [37] aconst_null
+      [38] putstatic #15
+        - Fieldref [com/bugsense/a/d.h Ljava/lang/String;]
+      [41] ldc #1
+        - String [0.6.0]
+      [43] putstatic #16
+        - Fieldref [com/bugsense/a/d.i Ljava/lang/String;]
+      [46] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bugsense/a/e
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.bugsense.a.e extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 273):
+  - String []
+  - String [(]
+  - String [)]
+  - String [:]
+  - String [Error sending exception stacktrace]
+  - String [MD5]
+  - String [Transmitting stack trace: ]
+  - String [UTF-8]
+  - String [X-BugSense-Api-Key]
+  - String [application_environment]
+  - String [appname]
+  - String [appver]
+  - String [backtrace]
+  - String [bugsense-android]
+  - String [bugsense-version-0.6]
+  - String [client]
+  - String [data]
+  - String [exception]
+  - String [gps_on]
+  - String [hash]
+  - String [klass]
+  - String [message]
+  - String [mobile_net_on]
+  - String [name]
+  - String [no internet connection maybe]
+  - String [occured_at]
+  - String [osver]
+  - String [phone]
+  - String [remote_ip]
+  - String [request]
+  - String [screen:height]
+  - String [screen:orientation]
+  - String [screen:width]
+  - String [screen_dpi(x:y)]
+  - String [version]
+  - String [where]
+  - String [wifi_on]
+  - Class [android/util/Log]
+  - Class [com/bugsense/a/a]
+  - Class [com/bugsense/a/d]
+  - Class [com/bugsense/a/e]
+  - Class [java/io/BufferedReader]
+  - Class [java/io/StringReader]
+  - Class [java/lang/Exception]
+  - Class [java/lang/Object]
+  - Class [java/lang/String]
+  - Class [java/lang/StringBuilder]
+  - Class [java/math/BigInteger]
+  - Class [java/security/MessageDigest]
+  - Class [java/util/ArrayList]
+  - Class [java/util/List]
+  - Class [org/apache/http/HttpResponse]
+  - Class [org/apache/http/client/entity/UrlEncodedFormEntity]
+  - Class [org/apache/http/client/methods/HttpPost]
+  - Class [org/apache/http/impl/client/DefaultHttpClient]
+  - Class [org/apache/http/message/BasicNameValuePair]
+  - Class [org/apache/http/params/HttpConnectionParams]
+  - Class [org/apache/http/params/HttpParams]
+  - Class [org/apache/http/params/HttpProtocolParams]
+  - Class [org/json/JSONObject]
+  - Fieldref [com/bugsense/a/d.b Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.c Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.d Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.f Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.g Ljava/lang/String;]
+  - Fieldref [com/bugsense/a/d.h Ljava/lang/String;]
+  - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+  - Methodref [com/bugsense/a/a.a ()Ljava/lang/String;]
+  - Methodref [com/bugsense/a/a.b ()Ljava/lang/String;]
+  - Methodref [com/bugsense/a/a.c ()Ljava/lang/String;]
+  - Methodref [com/bugsense/a/a.d ()[Ljava/lang/String;]
+  - Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;)V]
+  - Methodref [java/io/BufferedReader.close ()V]
+  - Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+  - Methodref [java/io/StringReader.<init> (Ljava/lang/String;)V]
+  - Methodref [java/lang/Exception.<init> (Ljava/lang/String;)V]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/lang/String.getBytes ()[B]
+  - Methodref [java/lang/String.indexOf (Ljava/lang/String;)I]
+  - Methodref [java/lang/String.lastIndexOf (Ljava/lang/String;)I]
+  - Methodref [java/lang/String.length ()I]
+  - Methodref [java/lang/String.substring (II)Ljava/lang/String;]
+  - Methodref [java/lang/StringBuilder.<init> ()V]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  - Methodref [java/math/BigInteger.<init> (I[B)V]
+  - Methodref [java/math/BigInteger.toString (I)Ljava/lang/String;]
+  - Methodref [java/security/MessageDigest.digest ()[B]
+  - Methodref [java/security/MessageDigest.getInstance (Ljava/lang/String;)Ljava/security/MessageDigest;]
+  - Methodref [java/security/MessageDigest.update ([BII)V]
+  - Methodref [java/util/ArrayList.<init> ()V]
+  - Methodref [org/apache/http/client/entity/UrlEncodedFormEntity.<init> (Ljava/util/List;Ljava/lang/String;)V]
+  - Methodref [org/apache/http/client/methods/HttpPost.<init> (Ljava/lang/String;)V]
+  - Methodref [org/apache/http/client/methods/HttpPost.addHeader (Ljava/lang/String;Ljava/lang/String;)V]
+  - Methodref [org/apache/http/client/methods/HttpPost.setEntity (Lorg/apache/http/HttpEntity;)V]
+  - Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> ()V]
+  - Methodref [org/apache/http/impl/client/DefaultHttpClient.execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+  - Methodref [org/apache/http/impl/client/DefaultHttpClient.getParams ()Lorg/apache/http/params/HttpParams;]
+  - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+  - Methodref [org/apache/http/params/HttpConnectionParams.setConnectionTimeout (Lorg/apache/http/params/HttpParams;I)V]
+  - Methodref [org/apache/http/params/HttpConnectionParams.setSoTimeout (Lorg/apache/http/params/HttpParams;I)V]
+  - Methodref [org/apache/http/params/HttpProtocolParams.setUseExpectContinue (Lorg/apache/http/params/HttpParams;Z)V]
+  - Methodref [org/json/JSONObject.<init> ()V]
+  - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+  - Methodref [org/json/JSONObject.toString ()Ljava/lang/String;]
+  - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+  - InterfaceMethodref [org/apache/http/HttpResponse.getEntity ()Lorg/apache/http/HttpEntity;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (I[B)V]
+  + NameAndType [<init> (Ljava/io/Reader;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> (Ljava/lang/String;Ljava/lang/String;)V]
+  + NameAndType [<init> (Ljava/util/List;Ljava/lang/String;)V]
+  + NameAndType [a ()Ljava/lang/String;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [addHeader (Ljava/lang/String;Ljava/lang/String;)V]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b ()Ljava/lang/String;]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [c ()Ljava/lang/String;]
+  + NameAndType [c Ljava/lang/String;]
+  + NameAndType [close ()V]
+  + NameAndType [d ()[Ljava/lang/String;]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [d Ljava/lang/String;]
+  + NameAndType [digest ()[B]
+  + NameAndType [e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+  + NameAndType [e Ljava/lang/String;]
+  + NameAndType [execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+  + NameAndType [f Ljava/lang/String;]
+  + NameAndType [g Ljava/lang/String;]
+  + NameAndType [getBytes ()[B]
+  + NameAndType [getEntity ()Lorg/apache/http/HttpEntity;]
+  + NameAndType [getInstance (Ljava/lang/String;)Ljava/security/MessageDigest;]
+  + NameAndType [getParams ()Lorg/apache/http/params/HttpParams;]
+  + NameAndType [h Ljava/lang/String;]
+  + NameAndType [indexOf (Ljava/lang/String;)I]
+  + NameAndType [lastIndexOf (Ljava/lang/String;)I]
+  + NameAndType [length ()I]
+  + NameAndType [put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+  + NameAndType [readLine ()Ljava/lang/String;]
+  + NameAndType [setConnectionTimeout (Lorg/apache/http/params/HttpParams;I)V]
+  + NameAndType [setEntity (Lorg/apache/http/HttpEntity;)V]
+  + NameAndType [setSoTimeout (Lorg/apache/http/params/HttpParams;I)V]
+  + NameAndType [setUseExpectContinue (Lorg/apache/http/params/HttpParams;Z)V]
+  + NameAndType [substring (II)Ljava/lang/String;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [toString (I)Ljava/lang/String;]
+  + NameAndType [update ([BII)V]
+  + Utf8 []
+  + Utf8 [(]
+  + Utf8 [()I]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Lorg/apache/http/HttpEntity;]
+  + Utf8 [()Lorg/apache/http/params/HttpParams;]
+  + Utf8 [()V]
+  + Utf8 [()[B]
+  + Utf8 [()[Ljava/lang/String;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(II)Ljava/lang/String;]
+  + Utf8 [(ILjava/util/Date;Ljava/lang/String;)V]
+  + Utf8 [(I[B)V]
+  + Utf8 [(Ljava/io/Reader;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)Ljava/security/MessageDigest;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+  + Utf8 [(Ljava/util/List;Ljava/lang/String;)V]
+  + Utf8 [(Lorg/apache/http/HttpEntity;)V]
+  + Utf8 [(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+  + Utf8 [(Lorg/apache/http/params/HttpParams;I)V]
+  + Utf8 [(Lorg/apache/http/params/HttpParams;Z)V]
+  + Utf8 [([BII)V]
+  + Utf8 [)]
+  + Utf8 [:]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Error sending exception stacktrace]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [MD5]
+  + Utf8 [StackMapTable]
+  + Utf8 [Transmitting stack trace: ]
+  + Utf8 [UTF-8]
+  + Utf8 [X-BugSense-Api-Key]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [addHeader]
+  + Utf8 [android/util/Log]
+  + Utf8 [append]
+  + Utf8 [application_environment]
+  + Utf8 [appname]
+  + Utf8 [appver]
+  + Utf8 [b]
+  + Utf8 [backtrace]
+  + Utf8 [bugsense-android]
+  + Utf8 [bugsense-version-0.6]
+  + Utf8 [c]
+  + Utf8 [client]
+  + Utf8 [close]
+  + Utf8 [com/bugsense/a/a]
+  + Utf8 [com/bugsense/a/d]
+  + Utf8 [com/bugsense/a/e]
+  + Utf8 [d]
+  + Utf8 [data]
+  + Utf8 [digest]
+  + Utf8 [e]
+  + Utf8 [exception]
+  + Utf8 [execute]
+  + Utf8 [f]
+  + Utf8 [g]
+  + Utf8 [getBytes]
+  + Utf8 [getEntity]
+  + Utf8 [getInstance]
+  + Utf8 [getParams]
+  + Utf8 [gps_on]
+  + Utf8 [h]
+  + Utf8 [hash]
+  + Utf8 [indexOf]
+  + Utf8 [java/io/BufferedReader]
+  + Utf8 [java/io/StringReader]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/math/BigInteger]
+  + Utf8 [java/security/MessageDigest]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [java/util/List]
+  + Utf8 [klass]
+  + Utf8 [lastIndexOf]
+  + Utf8 [length]
+  + Utf8 [message]
+  + Utf8 [mobile_net_on]
+  + Utf8 [name]
+  + Utf8 [no internet connection maybe]
+  + Utf8 [occured_at]
+  + Utf8 [org/apache/http/HttpResponse]
+  + Utf8 [org/apache/http/client/entity/UrlEncodedFormEntity]
+  + Utf8 [org/apache/http/client/methods/HttpPost]
+  + Utf8 [org/apache/http/impl/client/DefaultHttpClient]
+  + Utf8 [org/apache/http/message/BasicNameValuePair]
+  + Utf8 [org/apache/http/params/HttpConnectionParams]
+  + Utf8 [org/apache/http/params/HttpParams]
+  + Utf8 [org/apache/http/params/HttpProtocolParams]
+  + Utf8 [org/json/JSONObject]
+  + Utf8 [osver]
+  + Utf8 [phone]
+  + Utf8 [put]
+  + Utf8 [readLine]
+  + Utf8 [remote_ip]
+  + Utf8 [request]
+  + Utf8 [screen:height]
+  + Utf8 [screen:orientation]
+  + Utf8 [screen:width]
+  + Utf8 [screen_dpi(x:y)]
+  + Utf8 [setConnectionTimeout]
+  + Utf8 [setEntity]
+  + Utf8 [setSoTimeout]
+  + Utf8 [setUseExpectContinue]
+  + Utf8 [substring]
+  + Utf8 [toString]
+  + Utf8 [update]
+  + Utf8 [version]
+  + Utf8 [where]
+  + Utf8 [wifi_on]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public e()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #79
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(ILjava/util/Date;Ljava/lang/String;)V
+    Access flags: 0x9
+      = public static void a(int,java.util.Date,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 689, locals = 21, stack = 14):
+      [0] getstatic #64
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [3] new #47
+        - Class [java/lang/StringBuilder]
+      [6] dup
+      [7] invokespecial #85
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [10] ldc #7
+        - String [Transmitting stack trace: ]
+      [12] invokevirtual #86
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [15] aload_2 v2
+      [16] invokevirtual #86
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [19] invokevirtual #87
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [22] invokestatic #68
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [25] pop
+      [26] new #55
+        - Class [org/apache/http/impl/client/DefaultHttpClient]
+      [29] dup
+      [30] invokespecial #98
+        - Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> ()V]
+      [33] dup
+      [34] astore_3 v3
+      [35] invokevirtual #100
+        - Methodref [org/apache/http/impl/client/DefaultHttpClient.getParams ()Lorg/apache/http/params/HttpParams;]
+      [38] dup
+      [39] astore v4
+      [41] iconst_0
+      [42] invokestatic #104
+        - Methodref [org/apache/http/params/HttpProtocolParams.setUseExpectContinue (Lorg/apache/http/params/HttpParams;Z)V]
+      [45] iload_0 v0
+      [46] ifeq +15 (target=61)
+      [49] aload v4
+      [51] iload_0 v0
+      [52] invokestatic #102
+        - Methodref [org/apache/http/params/HttpConnectionParams.setConnectionTimeout (Lorg/apache/http/params/HttpParams;I)V]
+      [55] aload v4
+      [57] iload_0 v0
+      [58] invokestatic #103
+        - Methodref [org/apache/http/params/HttpConnectionParams.setSoTimeout (Lorg/apache/http/params/HttpParams;I)V]
+      [61] new #54
+        - Class [org/apache/http/client/methods/HttpPost]
+      [64] dup
+      [65] getstatic #63
+        - Fieldref [com/bugsense/a/d.d Ljava/lang/String;]
+      [68] invokespecial #95
+        - Methodref [org/apache/http/client/methods/HttpPost.<init> (Ljava/lang/String;)V]
+      [71] dup
+      [72] astore_0 v0
+      [73] ldc #9
+        - String [X-BugSense-Api-Key]
+      [75] getstatic #67
+        - Fieldref [com/bugsense/a/d.h Ljava/lang/String;]
+      [78] invokevirtual #96
+        - Methodref [org/apache/http/client/methods/HttpPost.addHeader (Ljava/lang/String;Ljava/lang/String;)V]
+      [81] new #50
+        - Class [java/util/ArrayList]
+      [84] dup
+      [85] invokespecial #93
+        - Methodref [java/util/ArrayList.<init> ()V]
+      [88] dup
+      [89] astore v4
+      [91] new #56
+        - Class [org/apache/http/message/BasicNameValuePair]
+      [94] dup
+      [95] ldc #17
+        - String [data]
+      [97] getstatic #62
+        - Fieldref [com/bugsense/a/d.c Ljava/lang/String;]
+      [100] getstatic #61
+        - Fieldref [com/bugsense/a/d.b Ljava/lang/String;]
+      [103] getstatic #66
+        - Fieldref [com/bugsense/a/d.g Ljava/lang/String;]
+      [106] getstatic #65
+        - Fieldref [com/bugsense/a/d.f Ljava/lang/String;]
+      [109] aload_2 v2
+      [110] invokestatic #70
+        - Methodref [com/bugsense/a/a.a ()Ljava/lang/String;]
+      [113] invokestatic #71
+        - Methodref [com/bugsense/a/a.b ()Ljava/lang/String;]
+      [116] invokestatic #72
+        - Methodref [com/bugsense/a/a.c ()Ljava/lang/String;]
+      [119] invokestatic #73
+        - Methodref [com/bugsense/a/a.d ()[Ljava/lang/String;]
+      [122] aload_1 v1
+      [123] astore v13
+      [125] astore v12
+      [127] astore v11
+      [129] astore v10
+      [131] astore v9
+      [133] astore v8
+      [135] astore v7
+      [137] astore v6
+      [139] astore v5
+      [141] astore_1 v1
+      [142] new #60
+        - Class [org/json/JSONObject]
+      [145] dup
+      [146] invokespecial #105
+        - Methodref [org/json/JSONObject.<init> ()V]
+      [149] astore v14
+      [151] new #60
+        - Class [org/json/JSONObject]
+      [154] dup
+      [155] invokespecial #105
+        - Methodref [org/json/JSONObject.<init> ()V]
+      [158] astore v15
+      [160] new #60
+        - Class [org/json/JSONObject]
+      [163] dup
+      [164] invokespecial #105
+        - Methodref [org/json/JSONObject.<init> ()V]
+      [167] astore v16
+      [169] new #60
+        - Class [org/json/JSONObject]
+      [172] dup
+      [173] invokespecial #105
+        - Methodref [org/json/JSONObject.<init> ()V]
+      [176] astore v17
+      [178] new #60
+        - Class [org/json/JSONObject]
+      [181] dup
+      [182] invokespecial #105
+        - Methodref [org/json/JSONObject.<init> ()V]
+      [185] astore v18
+      [187] aload v15
+      [189] ldc #29
+        - String [remote_ip]
+      [191] ldc #1
+        - String []
+      [193] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [196] pop
+      [197] aload v14
+      [199] ldc #30
+        - String [request]
+      [201] aload v15
+      [203] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [206] pop
+      [207] new #42
+        - Class [java/io/BufferedReader]
+      [210] dup
+      [211] new #43
+        - Class [java/io/StringReader]
+      [214] dup
+      [215] aload v8
+      [217] invokespecial #77
+        - Methodref [java/io/StringReader.<init> (Ljava/lang/String;)V]
+      [220] invokespecial #74
+        - Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;)V]
+      [223] astore v15
+      [225] aload v13
+      [227] ifnonnull +19 (target=246)
+      [230] aload v16
+      [232] ldc #26
+        - String [occured_at]
+      [234] aload v15
+      [236] invokevirtual #76
+        - Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+      [239] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [242] pop
+      [243] goto +13 (target=256)
+      [246] aload v16
+      [248] ldc #26
+        - String [occured_at]
+      [250] aload v13
+      [252] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [255] pop
+      [256] aload v16
+      [258] ldc #22
+        - String [message]
+      [260] aload v15
+      [262] invokevirtual #76
+        - Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+      [265] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [268] pop
+      [269] aload v15
+      [271] invokevirtual #76
+        - Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+      [274] astore v13
+      [276] aload v16
+      [278] ldc #36
+        - String [where]
+      [280] aload v13
+      [282] aload v13
+      [284] ldc #2
+        - String [(]
+      [286] invokevirtual #82
+        - Methodref [java/lang/String.lastIndexOf (Ljava/lang/String;)I]
+      [289] iconst_1
+      [290] iadd
+      [291] aload v13
+      [293] ldc #3
+        - String [)]
+      [295] invokevirtual #82
+        - Methodref [java/lang/String.lastIndexOf (Ljava/lang/String;)I]
+      [298] invokevirtual #84
+        - Methodref [java/lang/String.substring (II)Ljava/lang/String;]
+      [301] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [304] pop
+      [305] aload v16
+      [307] ldc #21
+        - String [klass]
+      [309] aload v8
+      [311] astore v13
+      [313] ldc #1
+        - String []
+      [315] astore v19
+      [317] aload v13
+      [319] ldc #4
+        - String [:]
+      [321] invokevirtual #81
+        - Methodref [java/lang/String.indexOf (Ljava/lang/String;)I]
+      [324] dup
+      [325] istore v20
+      [327] iconst_m1
+      [328] ificmpeq +25 (target=353)
+      [331] iload v20
+      [333] iconst_1
+      [334] iadd
+      [335] aload v13
+      [337] invokevirtual #83
+        - Methodref [java/lang/String.length ()I]
+      [340] ificmpge +13 (target=353)
+      [343] aload v13
+      [345] iconst_0
+      [346] iload v20
+      [348] invokevirtual #84
+        - Methodref [java/lang/String.substring (II)Ljava/lang/String;]
+      [351] astore v19
+      [353] aload v19
+      [355] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [358] pop
+      [359] aload v16
+      [361] ldc #13
+        - String [backtrace]
+      [363] aload v8
+      [365] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [368] pop
+      [369] aload v14
+      [371] ldc #18
+        - String [exception]
+      [373] aload v16
+      [375] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [378] pop
+      [379] aload v15
+      [381] invokevirtual #75
+        - Methodref [java/io/BufferedReader.close ()V]
+      [384] aload v17
+      [386] ldc #28
+        - String [phone]
+      [388] aload v6
+      [390] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [393] pop
+      [394] aload v17
+      [396] ldc #12
+        - String [appver]
+      [398] aload v5
+      [400] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [403] pop
+      [404] aload v17
+      [406] ldc #11
+        - String [appname]
+      [408] aload_1 v1
+      [409] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [412] pop
+      [413] aload v17
+      [415] ldc #27
+        - String [osver]
+      [417] aload v7
+      [419] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [422] pop
+      [423] aload v17
+      [425] ldc #37
+        - String [wifi_on]
+      [427] aload v9
+      [429] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [432] pop
+      [433] aload v17
+      [435] ldc #23
+        - String [mobile_net_on]
+      [437] aload v10
+      [439] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [442] pop
+      [443] aload v17
+      [445] ldc #19
+        - String [gps_on]
+      [447] aload v11
+      [449] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [452] pop
+      [453] aload v17
+      [455] ldc #33
+        - String [screen:width]
+      [457] aload v12
+      [459] iconst_0
+      [460] aaload
+      [461] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [464] pop
+      [465] aload v17
+      [467] ldc #31
+        - String [screen:height]
+      [469] aload v12
+      [471] iconst_1
+      [472] aaload
+      [473] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [476] pop
+      [477] aload v17
+      [479] ldc #32
+        - String [screen:orientation]
+      [481] aload v12
+      [483] iconst_2
+      [484] aaload
+      [485] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [488] pop
+      [489] aload v17
+      [491] ldc #34
+        - String [screen_dpi(x:y)]
+      [493] new #47
+        - Class [java/lang/StringBuilder]
+      [496] dup
+      [497] invokespecial #85
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [500] aload v12
+      [502] iconst_3
+      [503] aaload
+      [504] invokevirtual #86
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [507] ldc #4
+        - String [:]
+      [509] invokevirtual #86
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [512] aload v12
+      [514] iconst_4
+      [515] aaload
+      [516] invokevirtual #86
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [519] invokevirtual #87
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [522] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [525] pop
+      [526] aload v14
+      [528] ldc #10
+        - String [application_environment]
+      [530] aload v17
+      [532] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [535] pop
+      [536] aload v18
+      [538] ldc #35
+        - String [version]
+      [540] ldc #15
+        - String [bugsense-version-0.6]
+      [542] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [545] pop
+      [546] aload v18
+      [548] ldc #24
+        - String [name]
+      [550] ldc #14
+        - String [bugsense-android]
+      [552] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [555] pop
+      [556] aload v14
+      [558] ldc #16
+        - String [client]
+      [560] aload v18
+      [562] invokevirtual #106
+        - Methodref [org/json/JSONObject.put (Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;]
+      [565] pop
+      [566] aload v14
+      [568] invokevirtual #107
+        - Methodref [org/json/JSONObject.toString ()Ljava/lang/String;]
+      [571] invokespecial #101
+        - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [574] invokeinterface #108
+        - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [579] pop
+      [580] aload v4
+      [582] new #56
+        - Class [org/apache/http/message/BasicNameValuePair]
+      [585] dup
+      [586] ldc #20
+        - String [hash]
+      [588] aload_2 v2
+      [589] astore_1 v1
+      [590] ldc #6
+        - String [MD5]
+      [592] invokestatic #91
+        - Methodref [java/security/MessageDigest.getInstance (Ljava/lang/String;)Ljava/security/MessageDigest;]
+      [595] dup
+      [596] astore v5
+      [598] aload_1 v1
+      [599] invokevirtual #80
+        - Methodref [java/lang/String.getBytes ()[B]
+      [602] iconst_0
+      [603] aload_1 v1
+      [604] invokevirtual #83
+        - Methodref [java/lang/String.length ()I]
+      [607] invokevirtual #92
+        - Methodref [java/security/MessageDigest.update ([BII)V]
+      [610] new #48
+        - Class [java/math/BigInteger]
+      [613] dup
+      [614] iconst_1
+      [615] aload v5
+      [617] invokevirtual #90
+        - Methodref [java/security/MessageDigest.digest ()[B]
+      [620] invokespecial #88
+        - Methodref [java/math/BigInteger.<init> (I[B)V]
+      [623] bipush 16
+      [625] invokevirtual #89
+        - Methodref [java/math/BigInteger.toString (I)Ljava/lang/String;]
+      [628] invokespecial #101
+        - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [631] invokeinterface #108
+        - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [636] pop
+      [637] aload_0 v0
+      [638] new #53
+        - Class [org/apache/http/client/entity/UrlEncodedFormEntity]
+      [641] dup
+      [642] aload v4
+      [644] ldc #8
+        - String [UTF-8]
+      [646] invokespecial #94
+        - Methodref [org/apache/http/client/entity/UrlEncodedFormEntity.<init> (Ljava/util/List;Ljava/lang/String;)V]
+      [649] invokevirtual #97
+        - Methodref [org/apache/http/client/methods/HttpPost.setEntity (Lorg/apache/http/HttpEntity;)V]
+      [652] aload_3 v3
+      [653] aload_0 v0
+      [654] invokevirtual #99
+        - Methodref [org/apache/http/impl/client/DefaultHttpClient.execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+      [657] invokeinterface #109
+        - InterfaceMethodref [org/apache/http/HttpResponse.getEntity ()Lorg/apache/http/HttpEntity;]
+      [662] ifnonnull +13 (target=675)
+      [665] new #44
+        - Class [java/lang/Exception]
+      [668] dup
+      [669] ldc #25
+        - String [no internet connection maybe]
+      [671] invokespecial #78
+        - Methodref [java/lang/Exception.<init> (Ljava/lang/String;)V]
+      [674] athrow
+      [675] return
+      [676] astore_3 v3
+      [677] getstatic #64
+        - Fieldref [com/bugsense/a/d.e Ljava/lang/String;]
+      [680] ldc #5
+        - String [Error sending exception stacktrace]
+      [682] aload_3 v3
+      [683] invokestatic #69
+        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I]
+      [686] pop
+      [687] aload_3 v3
+      [688] athrow
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (0 -> 675: 676):
+      - Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [61] Var: ...[a:org/apache/http/impl/client/DefaultHttpClient][a:org/apache/http/params/HttpParams], Stack: (empty)
+        - [675] Var: -2, Stack: (empty)
+        - [676] Var: ..., Stack: [a:java/lang/Exception]
+        - [689] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bugsense/a/f
+  Superclass:    com/bugsense/a/c
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.bugsense.a.f extends com.bugsense.a.c
+
+Interfaces (count = 0):
+
+Constant Pool (count = 59):
+  - Class [[Ljava/lang/Object;]
+  - Class [com/bugsense/a/a]
+  - Class [com/bugsense/a/c]
+  - Class [com/bugsense/a/f]
+  - Class [com/bugsense/a/h]
+  - Class [java/lang/InterruptedException]
+  - Class [java/lang/System]
+  - Class [java/lang/Thread]
+  - Fieldref [com/bugsense/a/f.a J]
+  - Fieldref [com/bugsense/a/f.b Ljava/util/ArrayList;]
+  - Methodref [com/bugsense/a/a.a (Ljava/util/ArrayList;)V]
+  - Methodref [com/bugsense/a/a.e ()I]
+  - Methodref [com/bugsense/a/c.<init> (Ljava/lang/Object;)V]
+  - Methodref [com/bugsense/a/c.onCancelled ()V]
+  - Methodref [com/bugsense/a/c.onPreExecute ()V]
+  - Methodref [java/lang/InterruptedException.printStackTrace ()V]
+  - Methodref [java/lang/System.currentTimeMillis ()J]
+  - Methodref [java/lang/Thread.sleep (J)V]
+  + NameAndType [<init> (Ljava/lang/Object;)V]
+  + NameAndType [a (Ljava/util/ArrayList;)V]
+  + NameAndType [a J]
+  + NameAndType [b Ljava/util/ArrayList;]
+  + NameAndType [currentTimeMillis ()J]
+  + NameAndType [e ()I]
+  + NameAndType [onCancelled ()V]
+  + NameAndType [onPreExecute ()V]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [sleep (J)V]
+  + Utf8 [()I]
+  + Utf8 [()J]
+  + Utf8 [()V]
+  + Utf8 [(J)V]
+  + Utf8 [(Lcom/bugsense/a/h;Ljava/util/ArrayList;)V]
+  + Utf8 [(Ljava/lang/Object;)V]
+  + Utf8 [(Ljava/util/ArrayList;)V]
+  + Utf8 [([Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [J]
+  + Utf8 [Ljava/util/ArrayList;]
+  + Utf8 [StackMapTable]
+  + Utf8 [[Ljava/lang/Object;]
+  + Utf8 [a]
+  + Utf8 [b]
+  + Utf8 [com/bugsense/a/a]
+  + Utf8 [com/bugsense/a/c]
+  + Utf8 [com/bugsense/a/f]
+  + Utf8 [com/bugsense/a/h]
+  + Utf8 [currentTimeMillis]
+  + Utf8 [doInBackground]
+  + Utf8 [e]
+  + Utf8 [java/lang/InterruptedException]
+  + Utf8 [java/lang/System]
+  + Utf8 [java/lang/Thread]
+  + Utf8 [onCancelled]
+  + Utf8 [onPreExecute]
+  + Utf8 [printStackTrace]
+  + Utf8 [sleep]
+
+Fields (count = 2):
+  + Field:        a J
+    Access flags: 0x2
+      = private long a
+  + Field:        b Ljava/util/ArrayList;
+    Access flags: 0x1002
+      = private java.util.ArrayList b
+
+Methods (count = 4):
+  - Method:       <init>(Lcom/bugsense/a/h;Ljava/util/ArrayList;)V
+    Access flags: 0x0
+      = f(com.bugsense.a.h,java.util.ArrayList)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_2 v2
+      [2] putfield #10
+        - Fieldref [com/bugsense/a/f.b Ljava/util/ArrayList;]
+      [5] aload_0 v0
+      [6] aload_1 v1
+      [7] invokespecial #13
+        - Methodref [com/bugsense/a/c.<init> (Ljava/lang/Object;)V]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onPreExecute()V
+    Access flags: 0x14
+      = protected final void onPreExecute()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 1, stack = 3):
+      [0] aload_0 v0
+      [1] invokespecial #15
+        - Methodref [com/bugsense/a/c.onPreExecute ()V]
+      [4] aload_0 v0
+      [5] invokestatic #17
+        - Methodref [java/lang/System.currentTimeMillis ()J]
+      [8] putfield #9
+        - Fieldref [com/bugsense/a/f.a J]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
+    Access flags: 0x94
+      = protected final java.lang.Object doInBackground(java.lang.Object[])
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 39, locals = 4, stack = 6):
+      [0] aload_0 v0
+      [1] getfield #10
+        - Fieldref [com/bugsense/a/f.b Ljava/util/ArrayList;]
+      [4] invokestatic #11
+        - Methodref [com/bugsense/a/a.a (Ljava/util/ArrayList;)V]
+      [7] invokestatic #12
+        - Methodref [com/bugsense/a/a.e ()I]
+      [10] i2l
+      [11] invokestatic #17
+        - Methodref [java/lang/System.currentTimeMillis ()J]
+      [14] aload_0 v0
+      [15] getfield #9
+        - Fieldref [com/bugsense/a/f.a J]
+      [18] lsub
+      [19] lsub
+      [20] dup2
+      [21] lstore_2 v2
+      [22] lconst_0
+      [23] lcmp
+      [24] ifle +13 (target=37)
+      [27] lload_2 v2
+      [28] invokestatic #18
+        - Methodref [java/lang/Thread.sleep (J)V]
+      [31] goto +6 (target=37)
+      [34] invokevirtual #16
+        - Methodref [java/lang/InterruptedException.printStackTrace ()V]
+      [37] aconst_null
+      [38] areturn
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (27 -> 31: 34):
+      - Class [java/lang/InterruptedException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [34] Var: [a:com/bugsense/a/f][a:[Ljava/lang/Object;][l], Stack: [a:java/lang/InterruptedException]
+        - [37] Var: ..., Stack: (empty)
+  + Method:       onCancelled()V
+    Access flags: 0x14
+      = protected final void onCancelled()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #14
+        - Methodref [com/bugsense/a/c.onCancelled ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bugsense/a/g
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.bugsense.a.g extends java.lang.Object
+
+Interfaces (count = 1):
+  - Class [com/bugsense/a/h]
+
+Constant Pool (count = 14):
+  - Class [com/bugsense/a/a]
+  - Class [com/bugsense/a/g]
+  - Class [com/bugsense/a/h]
+  - Class [java/lang/Object]
+  - Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [com/bugsense/a/a]
+  + Utf8 [com/bugsense/a/g]
+  + Utf8 [com/bugsense/a/h]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  - Method:       <init>()V
+    Access flags: 0x0
+      = g()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #5
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bugsense/a/h
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x601
+    = public interface com.bugsense.a.h extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 7):
+  - Class [com/bugsense/a/a]
+  - Class [com/bugsense/a/h]
+  - Class [java/lang/Object]
+  + Utf8 [com/bugsense/a/a]
+  + Utf8 [com/bugsense/a/h]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 0):
+
+Methods (count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bugsense/a/i
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.bugsense.a.i extends java.lang.Object
+
+Interfaces (count = 1):
+  - Class [java/io/FilenameFilter]
+
+Constant Pool (count = 24):
+  - String [.stacktrace]
+  - Class [com/bugsense/a/a]
+  - Class [com/bugsense/a/i]
+  - Class [java/io/FilenameFilter]
+  - Class [java/lang/Object]
+  - Class [java/lang/String]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/lang/String.endsWith (Ljava/lang/String;)Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [endsWith (Ljava/lang/String;)Z]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/io/File;Ljava/lang/String;)Z]
+  + Utf8 [(Ljava/lang/String;)Z]
+  + Utf8 [.stacktrace]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [accept]
+  + Utf8 [com/bugsense/a/a]
+  + Utf8 [com/bugsense/a/i]
+  + Utf8 [endsWith]
+  + Utf8 [java/io/FilenameFilter]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x0
+      = i()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #7
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       accept(Ljava/io/File;Ljava/lang/String;)Z
+    Access flags: 0x11
+      = public final boolean accept(java.io.File,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 3, stack = 2):
+      [0] aload_2 v2
+      [1] ldc #1
+        - String [.stacktrace]
+      [3] invokevirtual #8
+        - Methodref [java/lang/String.endsWith (Ljava/lang/String;)Z]
+      [6] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/bugsense/proguardtest/ProguardBugSenseActivity
+  Superclass:    android/app/Activity
+  Major version: 0x31
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.bugsense.proguardtest.ProguardBugSenseActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 37):
+  - Integer [2130903040]
+  - String [60cf748f]
+  - String [exception requested by user]
+  - Class [android/app/Activity]
+  - Class [com/bugsense/a/a]
+  - Class [com/bugsense/proguardtest/ProguardBugSenseActivity]
+  - Class [java/lang/RuntimeException]
+  - Methodref [android/app/Activity.<init> ()V]
+  - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  - Methodref [com/bugsense/a/a.a (Landroid/content/Context;Ljava/lang/String;)Z]
+  - Methodref [com/bugsense/proguardtest/ProguardBugSenseActivity.setContentView (I)V]
+  - Methodref [java/lang/RuntimeException.<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a (Landroid/content/Context;Ljava/lang/String;)Z]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)Z]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [60cf748f]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [LineNumberTable]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [com/bugsense/a/a]
+  + Utf8 [com/bugsense/proguardtest/ProguardBugSenseActivity]
+  + Utf8 [exception requested by user]
+  + Utf8 [java/lang/RuntimeException]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public ProguardBugSenseActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #8
+        - Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 8
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 28, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #9
+        - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        - Integer [2130903040]
+      [8] invokevirtual #11
+        - Methodref [com/bugsense/proguardtest/ProguardBugSenseActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #2
+        - String [60cf748f]
+      [14] invokestatic #10
+        - Methodref [com/bugsense/a/a.a (Landroid/content/Context;Ljava/lang/String;)Z]
+      [17] pop
+      [18] new #7
+        - Class [java/lang/RuntimeException]
+      [21] dup
+      [22] ldc #3
+        - String [exception requested by user]
+      [24] invokespecial #12
+        - Methodref [java/lang/RuntimeException.<init> (Ljava/lang/String;)V]
+      [27] athrow
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 4)
+        [0] -> line 12
+        [5] -> line 13
+        [11] -> line 15
+        [18] -> line 16
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
